@@ -13,6 +13,9 @@ const Header = () => {
         <img src="/images/header/logo.png" alt="" className="w-[122px] md:w-[152px]" />
         <ul className="hidden md:flex gap-8 uppercase font-inter font-medium text-sm text-[#111111]">
           <li>
+                <Link href="/">Home</Link>
+              </li>
+          <li>
             <Link href="/about-anil-mathews">About</Link>
           </li>
           <li>
@@ -63,6 +66,9 @@ const Header = () => {
             </p>
 
             <ul className="flex flex-col gap-4 md:gap-8 text-[25px] md:text-[36px] font-charter text-[#E8DCCB]">
+              <li>
+                <Link href="/">Home</Link>
+              </li>
               <li>
                 <Link href="/about-anil-mathews">About</Link>
               </li>

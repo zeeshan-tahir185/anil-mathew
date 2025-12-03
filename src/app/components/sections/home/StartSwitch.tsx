@@ -1,0 +1,33 @@
+import Image from 'next/image'
+import React from 'react'
+import { MdKeyboardArrowRight } from 'react-icons/md'
+
+const StartSwitch = () => {
+    return (
+        <div className='bg-[#E8DCCB] '>
+            <div className='flex flex-col lg:flex-row gap-6 lg:gap-[80px] px-4 md:px-[50px] xl:px-[100px] xl:pr-0! 2xl:px-[130px] pt-[60px] lg:pt-[150px] items-center vision_section_padding max-w-[1920px] mx-auto'>
+                <div className='flex flex-col gap-6 lg:gap-10 lg:mb-[70px] 2xl:gap-16 w-full lg:w-[600px] 2xl:w-[713px] items-center lg:items-start text-center lg:text-left'>
+                    <div className='flex flex-col gap-4 lg:gap-6'>
+                        <h2 className='font-charter text-[36px] lg:text-[64px] text-[#111111] leading-[36px] lg:leading-[64px]' style={{ letterSpacing: "-2px" }}>Writing and thought leadership</h2>
+                        <p className='text-[#111111] opacity-65 font-inter text-base lg:text-xl'>The Start Switch is a book about motion. It shows how to begin, sustain momentum, and stay focused when most people stall. The book explores the mechanics of progress and what it takes to build something that lasts.</p>
+                    </div>
+                    <div className='w-full gap-4 flex flex-col lg:flex-row'>
+                        <button className="mx-auto md:mx-0 w-full lg:w-[199px] bg-[#1A3470] text-[#E8DCCB] h-[46px] backdrop-blur-[25px] flex justify-center items-center gap-2 rounded-full uppercase text-sm font-inter font-medium ">
+                            Read the book <MdKeyboardArrowRight className="text-lg" />
+                        </button>
+                        <button className="mx-auto md:mx-0 w-full lg:w-[207px] bg-[#E8DCCB03] backdrop-blur-[25px] border border-[#11141826] flex justify-center items-center gap-2 text-[#111111] h-[46px] rounded-full uppercase text-sm font-inter font-medium ">
+                            Buy on amazon <MdKeyboardArrowRight className="text-lg" />
+                        </button>
+                         <button className="mx-auto md:mx-0 w-full lg:w-[275px] bg-[#E8DCCB03] backdrop-blur-[25px] border border-[#11141826] flex justify-center items-center gap-2 text-[#111111] h-[46px] rounded-full uppercase text-sm font-inter font-medium ">
+                            Reviews on Goodreads <MdKeyboardArrowRight className="text-lg" />
+                        </button>
+                    </div>
+                </div>
+                <Image src="/images/home/starts.png" alt='starts image' width={802} height={732} className='hidden lg:block lg:w-[500px] 2xl:w-[800px]' />
+                <Image src="/images/home/starts_mob.png" alt='starts image' width={298} height={420} className='lg:hidden block w-[90%] mx-auto mt-[10px]' />
+            </div>
+        </div>
+    )
+}
+
+export default StartSwitch

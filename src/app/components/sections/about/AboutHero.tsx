@@ -4,7 +4,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 import { MdKeyboardArrowRight } from "react-icons/md";
 
-const HomeHero = () => {
+const AboutHero = () => {
     const [open, setOpen] = useState(false);
 
     return (
@@ -84,44 +84,32 @@ const HomeHero = () => {
                     </div>
                 </div>
             </div>
-            <div className="flex flex-col lg:flex-row px-4 md:px-12 main_padding_left gap-[30px] lg:gap-0">
-                <Image src="/images/home/home_hero_mob.png" alt="img icon" width={370} height={527} className="w-full lg:hidden mt-[-40px]" />
-                <div className="w-full lg:w-[40%] 2xl:w-[1000px] flex flex-col justify-center gap-[20px] lg:gap-[100px]">
-                    <div className="flex items-start gap-4 w-full lg:w-[442px]">
-                        <Image src="/images/home/hero_icon.png" alt="img icon" width={37} height={37} className="w-[25px] h-[25px] lg:mt-[-20px]" />
-                        <p className="font-inter text-sm md:text-base uppercase" >He founded Near Intelligence and led it from a small data experiment to a <span className="font-semibold text-[#1A3470]">billion-dollar, Nasdaq-listed enterprise</span> operating across four continents. </p>
-                    </div>
-                    <div className="flex flex-col gap-[20px] lg:gap-[30px]">
-                        <p className="font-inter text-base uppercase text-[#111111] ml-2 lg:ml-[50px]">Hello, I’m 👋</p>
-                        <div>
-                            <div className="flex items-start gap-5 2xl:gap-0">
-                                <h1 className="font-charter uppercase main_anil_mathew_heading text-[#111111]" style={{ letterSpacing: "-7px" }}>ANIL</h1>
-                                <p className="font-inter text-sm 2xl:text-base text-[#111111] uppercase mt-2">I build where<br /> technology amplifies<br /> human possibility.</p>
-                            </div>
-                            <h1 className="font-charter main_anil_mathew_heading uppercase text-[#111111]" style={{ letterSpacing: "-7px" }}>Mathews</h1>
-                        </div>
-                        <p className="font-inter text-base lg:text-xl text-[#111111] opacity-65" style={{ letterSpacing: "-1px" }}>
-                            I build companies that turn technology into leverage. Through Alphabyte Ventures, I’m creating products that make progress faster, decisions clearer, and teams more effective.
+            <div className="flex flex-col lg:flex-row justify-end px-4 md:px-12 main_padding_left gap-[25px] lg:gap-0">
+                <Image src="/images/about/about_mob.png" alt="img icon" width={370} height={527} className="w-full lg:hidden mt-[-40px]" />
+                <Image src="/images/about/about.png" alt="home hero" width={814} height={1038} className=" lg:w-[650px] xl:w-[700px] 2xl:w-[800px] z-10 absolute top-[9px] left-[10px] hidden lg:block" />
+                <div className="w-full lg:w-[40%] xl:w-[50%] lg:pt-[50px] about_main_section 2xl:w-auto flex flex-col gap-[20px] lg:gap-[100px] min-h-[500px] xl:min-h-[970px]">
+                    <div className="flex flex-col items-start gap-[15px] lg:gap-[30px] relative">
+                        <p className="font-inter text-base uppercase text-[#111111] lg:ml-[65px] order-2 lg:order-1 mt-4 lg:mt-0">I’m AN</p>
+                        <h1 className="font-charter order-3 lg:order-2 main_about_heading uppercase text-[#111111] main_heading_letter_space" >entrepreneur <br />
+                            & author </h1>
+                        <p className="order-1 lg:order-3 font-inter text-sm lg:text-base uppercase text-[#111111] w-full lg:w-[432px] lg:ml-[120px] 2xl:ml-[170px]" style={{ letterSpacing: "-1px" }}>
+                            driven by one idea: technology should expand human potential, not replace it.
                         </p>
-                        <div className="mt-[20px] flex flex-col sm:flex-row flex-wrap gap-4 w-full">
-                            <button className="mx-auto md:mx-0 w-full md:w-[231px] bg-[#1A3470] text-[#E8DCCB] h-[46px] backdrop-blur-[25px] flex justify-center items-center gap-2 rounded-full uppercase text-sm font-inter font-medium ">
-                                Explore Ventures <MdKeyboardArrowRight className="text-lg" />
-                            </button>
-                            <button className="mx-auto md:mx-0 w-full md:w-[155px] bg-[#E8DCCB03] backdrop-blur-[25px] border border-[#11141826] flex justify-center items-center gap-2 text-[#111111] h-[46px] rounded-full uppercase text-sm font-inter font-medium ">
-                                See Press <MdKeyboardArrowRight className="text-lg" />
-                            </button>
-                        </div>
+                        <Image src="/images/about/icon.png" width={134} height={130} alt="about icon" className="absolute bottom-[-20px] 2xl:bottom-[-60px] right-[10%] hidden lg:block w-[50px] 2xl:w-[130px]" />
+                    </div>
+                    <div className="flex flex-col gap-[25px] lg:gap-[30px] w-full lg:w-[578px] lg:ml-[10%]">
+                        <p className="text-base lg:text-xl font-inter text-[#111111] opacity-65">Over the past two decades I’ve built companies that prove small, clear-thinking teams can shape global markets. I founded Near Intelligence, scaled it across Asia, Europe, and North America, and led its Nasdaq listing at a valuation near one billion dollars.</p>
+                        <p className="text-base lg:text-xl font-inter text-[#111111] opacity-65">
+                            Today I lead Alphabyte Ventures, a studio that creates and invests in focused software products that give clarity, speed, and precision to ambitious teams everywhere.
+                        </p>
+                        <button className=" backdrop-blur-[25px]  flex items-center gap-2 text-[#1A3470] h-[46px] rounded-full uppercase text-sm lg:text-base font-inter font-medium ">
+                            Visit Alphabyte Ventures <MdKeyboardArrowRight className="text-lg" />
+                        </button>
                     </div>
                 </div>
-                <div className="home_hero_bg hidden lg:block w-[60%] xl:w-[814px] min-h-[900px] xl:min-h-[970px] ">
-                    <Image src="/images/home/home_hero.png" alt="home hero" width={814} height={1038} className="z-10 absolute top-[9px] right-[10px]" />
-                    <div className="z-30 absolute ">
-                        
-                    </div>
-                </div>
+
             </div>
         </div>
     )
 }
-
-export default HomeHero
+export default AboutHero
