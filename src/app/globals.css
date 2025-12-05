@@ -58,6 +58,13 @@
   background-size: cover;
   background-position: center !important;
 }
+.belief_bg{
+  background: url("/images/ventures/belief_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center !important;
+}
+
 @media screen and (max-width: 1700px) {
   .main_anil_mathew_heading {
     font-size: 120px;
@@ -96,6 +103,12 @@
 .main_heading_letter_space{
   letter-spacing: -2px;
 }
+.belief_bg{
+  background: url("/images/ventures/belief_bg_mob.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center !important;
+}
 
 }
 @media screen and (min-width: 1800px) {
@@ -112,5 +125,15 @@
  }
  .card_custom_width{
   width: 510px;
+ }
+ .venture_img{
+  width: 1000px;
+ }
+ .venture_content{
+  width: 590px;
+ }
+ .ventures_prev_main{
+  padding-left: 222px;
+  padding-right: 222px;
  }
 }
