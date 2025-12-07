@@ -46,35 +46,53 @@ const Principles = () => {
                     ))}
                 </div>
 
-                {/* Mobile Carousel */}
+
                 <div className='md:hidden w-full py-4'>
                     <Swiper
                         modules={[Autoplay]}
-                        slidesPerView={'auto'}     // 👈 IMPORTANT FOR INFINITE LOOP
+                        slidesPerView={'auto'}
                         centeredSlides={true}
                         spaceBetween={20}
                         loop={true}
-                        autoplay={{ delay: 2200 }}
+                        autoplay={{
+                            delay: 2200,
+                            disableOnInteraction: false,
+                            pauseOnMouseEnter: false,
+                        }}
+                        speed={800}
+                        // Yeh teen lines + key trick = guaranteed work
+                        observer={true}
+                        observeParents={true}
+                        observeSlideChildren={true}
+                        // Sabse important: force re-init on mount
+                        key="mobile-swiper-forced"
+                        onInit={(swiper) => {
+                            // Force autoplay start even if hidden → visible
+                            setTimeout(() => {
+                                swiper.autoplay.start()
+                            }, 100)
+                        }}
+                        onResize={(swiper) => {
+                            swiper.update()
+                            swiper.autoplay.start()
+                        }}
                     >
-                        {items.map((item, i) => (
-                            <SwiperSlide
-                                key={i}
-                                style={{ width: "250px", marginRight: "16px" }}   // 👈 FIXED WIDTH (NO BREAK)
-                            >
-                                <div className='mx-auto flex flex-col justify-center p-4 gap-4 items-center text-center 
-                w-[250px] bg-[#1A1A1A0D] min-h-[250px] rounded-xl border border-[#E8DCCB26]'>
-
-                                    <Image src={item.img} width={78} height={78} alt='icon' />
-                                    <h3 className='text-lg font-inter font-semibold text-[#1A1A1A]'>{item.title}</h3>
-                                    <p className='text-base text-[#1A1A1A] opacity-65 font-inter'>{item.desc}</p>
-                                </div>
-                            </SwiperSlide>
-                        ))}
+                                                {items.map((item, i) => (
+                                                    <SwiperSlide
+                                                        key={i}
+                                                        style={{ width: "250px", marginRight: "16px" }}   // 👈 FIXED WIDTH (NO BREAK)
+                                                    >
+                                                        <div className='mx-auto flex flex-col justify-center p-4 gap-6 items-center text-center 
+                                        w-[250px] bg-[#1A1A1A0D] min-h-[402px] rounded-xl border border-[#E8DCCB26]'>
+                        
+                                                            <Image src={item.img} width={78} height={78} alt='icon' className='mb-3' />
+                                                            <h3 className='text-lg font-inter font-semibold text-[#1A1A1A]'>{item.title}</h3>
+                                                            <p className='text-base text-[#1A1A1A] opacity-65 font-inter'>{item.desc}</p>
+                                                        </div>
+                                                    </SwiperSlide>
+                                                ))}
                     </Swiper>
                 </div>
-
-
-
             </div>
         </div>
 

@@ -87,7 +87,7 @@ export default function Media() {
 
                 </div>
             </div>
-            <button className="w-full lg:hidden lg:w-[305px] bg-[#E8DCCB] text-[#1A3470] border border-[#E8DCCB26] h-[46px] rounded-full flex items-center justify-center gap-1 uppercase text-sm lg:text-base font-inter">
+            <button className="w-[330px] lg:hidden lg:w-[305px] bg-[#E8DCCB] text-[#1A3470] border border-[#E8DCCB26] h-[46px] rounded-full flex items-center justify-center gap-1 uppercase text-sm lg:text-base font-inter">
                 See all press and interviews
             </button>
         </div>
