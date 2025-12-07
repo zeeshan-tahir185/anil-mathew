@@ -2,29 +2,47 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
+import { usePathname } from "next/navigation"; // 👈 ADD THIS
 import { MdKeyboardArrowRight } from "react-icons/md";
-
 const AboutHero = () => {
     const [open, setOpen] = useState(false);
+    const pathname = usePathname();
+
+    const navItems = [
+        { name: "Home", path: "/" },
+        { name: "About", path: "/about-anil-mathews" },
+        { name: "Press", path: "/press" },
+        { name: "Speaking", path: "/speaking" },
+        { name: "Ventures", path: "/ventures" },
+    ];
 
     return (
         <div className="max-w-[1920px] mx-auto relative">
             <div>
                 <header className="flex px-4 md:px-12  py-[17px] md:py-7 justify-between items-center relative z-50">
-                    <img src="/images/header/logo.png" alt="" className="w-[122px] md:w-[152px]" />
+                    <Link href="/"><Image src="/images/header/logo.png" width={152} height={26} alt="" className="w-[122px] md:w-[152px] " /></Link>
                     <ul className="hidden md:flex gap-8 uppercase font-inter font-medium text-sm text-[#111111]">
-                        <li>
-                            <Link href="/about-anil-mathews">About</Link>
-                        </li>
-                        <li>
-                            <Link href="/press">Press</Link>
-                        </li>
-                        <li>
-                            <Link href="/speaking">Speaking</Link>
-                        </li>
-                        <li>
-                            <Link href="/ventures">Ventures</Link>
-                        </li>
+                        {navItems.map((item) => {
+                            const isActive = pathname === item.path;
+
+                            return (
+                                <li key={item.path} className="relative group cursor-pointer">
+                                    <Link
+                                        href={item.path}
+                                        className={`transition-all duration-300 ${isActive ? "font-bold text-[#1A3470]" : ""
+                                            }`}
+                                    >
+                                        {item.name}
+                                    </Link>
+
+                                    {/* Animated underline */}
+                                    <span
+                                        className={`absolute -bottom-[1px] left-0 h-[1px] bg-[#1A3470] transition-all duration-300 
+                  ${isActive ? "w-full" : "w-0 group-hover:w-full"}`}
+                                    />
+                                </li>
+                            );
+                        })}
                     </ul>
                     <button
                         className="md:hidden"
@@ -102,9 +120,11 @@ const AboutHero = () => {
                         <p className="text-base lg:text-xl font-inter text-[#111111] opacity-65">
                             Today I lead Alphabyte Ventures, a studio that creates and invests in focused software products that give clarity, speed, and precision to ambitious teams everywhere.
                         </p>
+                        <Link href="https://www.alphabyte.com/" target="_blank" rel="noopener">
                         <button className=" backdrop-blur-[25px]  flex items-center gap-2 text-[#1A3470] h-[46px] rounded-full uppercase text-sm lg:text-base font-inter font-medium ">
                             Visit Alphabyte Ventures <MdKeyboardArrowRight className="text-lg" />
                         </button>
+                        </Link>
                     </div>
                 </div>
 

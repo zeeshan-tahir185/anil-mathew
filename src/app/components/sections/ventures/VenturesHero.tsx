@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 import { MdKeyboardArrowRight } from 'react-icons/md'
 
@@ -11,9 +12,11 @@ const VenturesHero = () => {
                     <p className='text-[#111111] opacity-65 font-inter text-base lg:text-xl'>We apply AI where it matters most: research, prototyping, data pipelines, and customer support.
                         Each product is a test of one belief: clarity scales faster than size.</p>
                     <div className=" flex flex-col sm:flex-row flex-wrap gap-4 w-full">
-                        <button className="mx-auto md:mx-0 w-full md:w-[301px] bg-[#1A3470] text-[#E8DCCB] h-[46px] backdrop-blur-[25px] flex justify-center items-center gap-2 rounded-full uppercase text-sm font-inter font-medium ">
+                        <Link href="https://www.alphabyte.com/">
+                        <button className="cursor-pointer mx-auto md:mx-0 w-full md:w-[301px] bg-[#1A3470] text-[#E8DCCB] h-[46px] backdrop-blur-[25px] flex justify-center items-center gap-2 rounded-full uppercase text-sm font-inter font-medium ">
                             Visit Alphabyte Ventures <MdKeyboardArrowRight className="text-lg" />
                         </button>
+                        </Link>
                     </div>
                 </div>
                 <div className='bg-[#F7F4F1] lg:pt-[13px] lg:pl-[15px] rounded-tl-[32px] w-full lg:w-[600px] xl:w-[700px] 2xl:w-[800px] self-end venture_img'>

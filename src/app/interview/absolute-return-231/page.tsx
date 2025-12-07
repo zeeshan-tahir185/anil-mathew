@@ -2,6 +2,33 @@ import Footer from '@/app/components/layout/Footer'
 import Header from '@/app/components/layout/Header'
 import Absolute from '@/app/components/sections/interviews/Absolute'
 import React from 'react'
+export const metadata = {
+  title: "Absolute Return Podcast #231 | Anil Mathews",
+  description:
+    "Episode #231 of the Absolute Return Podcast (Sep 19, 2022): Anil Mathews on entrepreneurship, why enterprise software wins, and how Near’s datasets are used. Hosted by Julian Klymochko and Michael Kesslering.",
+  alternates: {
+    canonical: "https://www.anilmathews.com/interview/absolute-return-231",
+  },
+  openGraph: {
+    type: "website",
+    url: "https://www.anilmathews.com/interview/absolute-return-231",
+    title: "Absolute Return Podcast #231 | Anil Mathews",
+    description:
+      "Episode #231 of the Absolute Return Podcast (Sep 19, 2022): Anil Mathews on entrepreneurship, why enterprise software wins, and how Near’s datasets are used. Hosted by Julian Klymochko and Michael Kesslering.",
+    images: [
+      "https://www.anilmathews.com/assets/og/og-home-1200x630.jpg", 
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Absolute Return Podcast #231 | Anil Mathews",
+    description:
+      "Episode #231 of the Absolute Return Podcast (Sep 19, 2022): Anil Mathews on entrepreneurship, why enterprise software wins, and how Near’s datasets are used. Hosted by Julian Klymochko and Michael Kesslering.",
+    images: [
+      "https://www.anilmathews.com/assets/og/og-home-1200x630.jpg",
+    ],
+  },
+};
 
 const page = () => {
   return (

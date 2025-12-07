@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 const PreviousVentures = () => {
@@ -19,11 +20,15 @@ const PreviousVentures = () => {
                     <div className='flex flex-col gap-6 lg:gap-[56px]'>
                         <div className='flex flex-col gap-4'>
                             <p className='text-base font-inter uppercase text-[#E8DCCB]'>Coverage</p>
+                            <Link href="https://techcrunch.com/2022/05/19/data-intelligence-startup-near-with-1-6b-anonymized-user-ids-lists-on-nasdaq-via-spac-at-a-1b-market-cap-raises-100m/" target="_blank" rel="nofollow noopener">
                             <h2 className='font-charter font-black text-[36px] leading-[36px] lg:text-[64px] lg:leading-[64px] text-[#E8DCCB] uppercase'>TechCrunch</h2>
+                            </Link>
                         </div>
                          <div className='flex flex-col gap-4'>
                             <p className='text-base font-inter uppercase text-[#E8DCCB]'>Interview</p>
+                            <Link href="https://www.bloomberg.com/news/videos/2023-03-24/near-intelligence-s-mathews-on-spac-deal-video" target="_blank" rel="nofollow noopener">
                             <h2 className='font-charter font-black text-[36px] leading-[36px] lg:text-[64px] lg:leading-[64px] text-[#E8DCCB] uppercase'>Bloomberg TV</h2>
+                            </Link>
                         </div>
 
                     </div>

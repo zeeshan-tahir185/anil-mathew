@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 import { MdKeyboardArrowRight } from 'react-icons/md'
 
@@ -12,15 +13,21 @@ const StartSwitch = () => {
                         <p className='text-[#111111] opacity-65 font-inter text-base lg:text-xl'>The Start Switch is a book about motion. It shows how to begin, sustain momentum, and stay focused when most people stall. The book explores the mechanics of progress and what it takes to build something that lasts.</p>
                     </div>
                     <div className='w-full gap-4 flex flex-col lg:flex-row'>
-                        <button className="mx-auto md:mx-0 w-full lg:w-[199px] bg-[#1A3470] text-[#E8DCCB] h-[46px] backdrop-blur-[25px] flex justify-center items-center gap-2 rounded-full uppercase text-sm font-inter font-medium ">
+                       <Link href="https://www.thestartswitch.com" target='_blank' rel="noopener">
+                        <button className="cursor-pointer mx-auto md:mx-0 w-full lg:w-[199px] bg-[#1A3470] text-[#E8DCCB] h-[46px] backdrop-blur-[25px] flex justify-center items-center gap-2 rounded-full uppercase text-sm font-inter font-medium ">
                             Read the book <MdKeyboardArrowRight className="text-lg" />
                         </button>
-                        <button className="mx-auto md:mx-0 w-full lg:w-[207px] bg-[#E8DCCB03] backdrop-blur-[25px] border border-[#11141826] flex justify-center items-center gap-2 text-[#111111] h-[46px] rounded-full uppercase text-sm font-inter font-medium ">
+                       </Link>
+                        <Link href="https://www.amazon.com/dp/B0FH41DL25" target="_blank" rel="nofollow noopener">
+                        <button className="cursor-pointer mx-auto md:mx-0 w-full lg:w-[207px] bg-[#E8DCCB03] backdrop-blur-[25px] border border-[#11141826] flex justify-center items-center gap-2 text-[#111111] h-[46px] rounded-full uppercase text-sm font-inter font-medium ">
                             Buy on amazon <MdKeyboardArrowRight className="text-lg" />
                         </button>
-                         <button className="mx-auto md:mx-0 w-full lg:w-[275px] bg-[#E8DCCB03] backdrop-blur-[25px] border border-[#11141826] flex justify-center items-center gap-2 text-[#111111] h-[46px] rounded-full uppercase text-sm font-inter font-medium ">
-                            Reviews on Goodreads <MdKeyboardArrowRight className="text-lg" />
-                        </button>
+                        </Link>
+                        <Link href="https://www.goodreads.com/author/show/57597604.Anil_Mathews" target="_blank" rel="nofollow noopener">
+                            <button className="cursor-pointer mx-auto md:mx-0 w-full md:w-[275px] bg-[#E8DCCB03] backdrop-blur-[25px] border border-[#11141826] flex justify-center items-center gap-2 text-[#111111] h-[46px] rounded-full uppercase text-sm font-inter font-medium ">
+                                Reviews on Goodreads <MdKeyboardArrowRight className="text-lg" />
+                            </button>
+                            </Link>
                     </div>
                 </div>
                 <Image src="/images/home/starts.png" alt='starts image' width={802} height={732} className='hidden lg:block lg:w-[500px] 2xl:w-[800px]' />

@@ -2,31 +2,45 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
+import { usePathname } from "next/navigation"; // 👈 ADD THIS
 import { MdKeyboardArrowRight } from "react-icons/md";
-
 const Header = () => {
   const [open, setOpen] = useState(false);
+  const pathname = usePathname();
 
+  const navItems = [
+    { name: "Home", path: "/" },
+    { name: "About", path: "/about-anil-mathews" },
+    { name: "Press", path: "/press" },
+    { name: "Speaking", path: "/speaking" },
+    { name: "Ventures", path: "/ventures" },
+  ];
   return (
     <>
       <header className="flex px-4 md:px-12 max-w-[1920px] mx-auto py-[17px] md:py-7 justify-between items-center relative z-50">
-        <img src="/images/header/logo.png" alt="" className="w-[122px] md:w-[152px]" />
+        <Link href="/"><Image src="/images/header/logo.png" width={152} height={26} alt="" className="w-[122px] md:w-[152px] " /></Link>
         <ul className="hidden md:flex gap-8 uppercase font-inter font-medium text-sm text-[#111111]">
-          <li>
-                <Link href="/">Home</Link>
+          {navItems.map((item) => {
+            const isActive = pathname === item.path;
+
+            return (
+              <li key={item.path} className="relative group cursor-pointer">
+                <Link
+                  href={item.path}
+                  className={`transition-all duration-300 ${isActive ? "font-bold text-[#1A3470]" : ""
+                    }`}
+                >
+                  {item.name}
+                </Link>
+
+                {/* Animated underline */}
+                <span
+                  className={`absolute -bottom-[1px] left-0 h-[1px] bg-[#1A3470] transition-all duration-300 
+                  ${isActive ? "w-full" : "w-0 group-hover:w-full"}`}
+                />
               </li>
-          <li>
-            <Link href="/about-anil-mathews">About</Link>
-          </li>
-          <li>
-            <Link href="/press">Press</Link>
-          </li>
-          <li>
-            <Link href="/speaking">Speaking</Link>
-          </li>
-          <li>
-            <Link href="/ventures">Ventures</Link>
-          </li>
+            );
+          })}
         </ul>
         <button
           className="md:hidden"
@@ -91,7 +105,7 @@ const Header = () => {
             </button>
 
             <button className="w-full bg-[#E8DCCB12] backdrop-blur-[25px] border border-[#11141826] flex justify-center items-center gap-2 text-[#E8DCCB] h-[50px] rounded-full uppercase text-sm font-inter font-medium ">
-              See Press <MdKeyboardArrowRight  className="text-lg" />
+              See Press <MdKeyboardArrowRight className="text-lg" />
             </button>
           </div>
         </div>

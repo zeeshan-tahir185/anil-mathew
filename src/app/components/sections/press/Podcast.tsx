@@ -3,6 +3,7 @@ import React from 'react'
 import { CiHeart } from "react-icons/ci";
 import { IoArrowRedoOutline } from 'react-icons/io5';
 import { CiPlay1 } from "react-icons/ci";
+import Link from 'next/link';
 
 const Podcast = () => {
     return (
@@ -24,9 +25,11 @@ const Podcast = () => {
                                 <CiHeart />
                                 <IoArrowRedoOutline />
                             </div>
-                            <button className="order-1 lg:order-2 mx-auto md:mx-0 w-[202px] md:w-[111px] bg-[#1A3470] text-[#E8DCCB] h-[46px] backdrop-blur-[25px] flex justify-center items-center gap-2 rounded-full uppercase text-sm font-inter font-medium ">
+                            <Link href="https://accelerateshares.com/podcasts/absolute-return-podcast-231-enterprise-software-with-near-ceo-anil-mathews/" target="_blank" rel="nofollow noopener">
+                            <button className="cursor-pointer order-1 lg:order-2 mx-auto md:mx-0 w-[202px] md:w-[111px] bg-[#1A3470] text-[#E8DCCB] h-[46px] backdrop-blur-[25px] flex justify-center items-center gap-2 rounded-full uppercase text-sm font-inter font-medium ">
                                 PLAY <CiPlay1 className="text-lg" />
                             </button>
+                            </Link>
                         </div>
                     </div>
                     <span className='w-full border-b border-[#1A1A1A]/15 hidden lg:block'></span>
@@ -44,9 +47,11 @@ const Podcast = () => {
                                 <CiHeart />
                                 <IoArrowRedoOutline />
                             </div>
-                            <button className="order-1 lg:order-2 mx-auto md:mx-0 w-[202px] md:w-[111px] bg-[#1A3470] text-[#E8DCCB] h-[46px] backdrop-blur-[25px] flex justify-center items-center gap-2 rounded-full uppercase text-sm font-inter font-medium ">
+                           <Link href="https://www.spacinsider.com/news/market-intel/podcast-near-inka-anil-mathews" target="_blank" rel="nofollow noopener">
+                            <button className="cursor-pointer order-1 lg:order-2 mx-auto md:mx-0 w-[202px] md:w-[111px] bg-[#1A3470] text-[#E8DCCB] h-[46px] backdrop-blur-[25px] flex justify-center items-center gap-2 rounded-full uppercase text-sm font-inter font-medium ">
                                 PLAY <CiPlay1 className="text-lg" />
                             </button>
+                           </Link>
                         </div>
                     </div>
                 </div>

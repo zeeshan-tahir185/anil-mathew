@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 import { MdKeyboardArrowRight } from 'react-icons/md'
 
@@ -14,9 +15,11 @@ const ClipsAndFeatures = () => {
                     <div className='flex flex-col items-center lg:items-start text-center lg:text-left gap-6 p-[20px] lg:p-[50px] absolute bottom-0 left-0 w-full'>
                         <h3 className='text-[24px] lg:text-[32px] font-charter text-[#F7F4F1] leading-[28px] lg:leading-[42px]'>Bloomberg TV highlights</h3>
                         <p className='text-base lg:text-xl text-[#F7F4F1] font-inter z-20 '>Insights from the public listing interview — focus, scaling, and navigating complexity. </p>
-                        <button className="mx-auto md:mx-0 w-full md:w-[173px] bg-[#1A3470] text-[#E8DCCB] h-[46px] backdrop-blur-[25px] flex justify-center items-center gap-2 rounded-full uppercase text-sm font-inter font-medium ">
+                        <Link href="https://www.bloomberg.com/news/videos/2023-03-24/near-intelligence-s-mathews-on-spac-deal-video" target="_blank" rel="nofollow noopener">
+                        <button className="cursor-pointer mx-auto md:mx-0 w-full md:w-[173px] bg-[#1A3470] text-[#E8DCCB] h-[46px] backdrop-blur-[25px] flex justify-center items-center gap-2 rounded-full uppercase text-sm font-inter font-medium ">
                             Watch now <MdKeyboardArrowRight className="text-lg" />
                         </button>
+                        </Link>
                     </div>
                 </div>
                 <div className='w-full lg:w-[50%] relative'>
@@ -25,9 +28,11 @@ const ClipsAndFeatures = () => {
                     <div className='flex flex-col items-center lg:items-start text-center lg:text-left gap-6 p-[20px] lg:p-[50px] absolute bottom-0 left-0 w-full'>
                         <h3 className='text-[24px] lg:text-[32px] font-charter text-[#F7F4F1] leading-[28px] lg:leading-[42px]'>Absolute Return Podcast</h3>
                         <p className='text-base lg:text-xl text-[#F7F4F1] font-inter z-20 '>Conversation on enterprise software, traction, and building the right metrics early. </p>
-                        <button className="mx-auto md:mx-0 w-full md:w-[126px] bg-[#1A3470] text-[#E8DCCB] h-[46px] backdrop-blur-[25px] flex justify-center items-center gap-2 rounded-full uppercase text-sm font-inter font-medium ">
+                        <Link href="https://absolutereturn.podbean.com/e/231-enterprise-software-with-near-ceo-anil-mathews/" target="_blank" rel="nofollow noopener">
+                        <button className="cursor-pointer mx-auto md:mx-0 w-full md:w-[126px] bg-[#1A3470] text-[#E8DCCB] h-[46px] backdrop-blur-[25px] flex justify-center items-center gap-2 rounded-full uppercase text-sm font-inter font-medium ">
                            Listen <MdKeyboardArrowRight className="text-lg" />
                         </button>
+                        </Link>
                     </div>
                 </div>
             </div>

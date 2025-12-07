@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 const SelectedAcquisitions = () => {
@@ -13,14 +14,14 @@ const SelectedAcquisitions = () => {
                     <Image src="/images/ventures/selected1.png" width={788} height={550} alt='venture image' className='w-full' />
                     <div className='flex flex-col gap-2 lg:gap-4'>
                         <p className='font-charter text-[24px] lg:text-[32px] text-[#111111]'>Teemo (Paris)</p>
-                        <p className='font-inter text-base lg:text-xl text-[#111111]'>Coverage by <span className='font-semibold underline text-[#1A3470]'>TechCrunch</span></p>
+                        <p className='font-inter text-base lg:text-xl text-[#111111]'>Coverage by <Link href="https://techcrunch.com/2020/11/19/near-acquires-teemo/" target="_blank" rel="nofollow noopener" className='font-semibold underline text-[#1A3470]'>TechCrunch</Link></p>
                     </div>
                 </div>
                 <div className='flex flex-col gap-6 lg:gap-8 w-full lg:w-[40%] 2xl:w-[515px]'>
                     <Image src="/images/ventures/selected2.png" width={515} height={550} alt='venture image' className='w-full' />
                     <div className='flex flex-col gap-2 lg:gap-4'>
                         <p className='font-charter text-[24px] lg:text-[32px] text-[#111111]'>UM (California)</p>
-                        <p className='font-inter text-base lg:text-xl text-[#111111]'>Coverage by <span className='font-semibold underline text-[#1A3470]'>TechCrunch</span></p>
+                        <p className='font-inter text-base lg:text-xl text-[#111111]'>Coverage by <Link href="https://techcrunch.com/2021/04/28/near-acquires-ubermedia/" target="_blank" rel="nofollow noopener" className='font-semibold underline text-[#1A3470]'>TechCrunch</Link></p>
                     </div>
                 </div>
             </div>
