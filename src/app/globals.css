@@ -7,10 +7,7 @@
 }
 /* text-[78px] lg:text-[120px] 2xl:text-[140px] 3xl:text-[160px] 4xl:text-[188px] lg:leading-[100px] 2xl:leading-[141px] */
 
-.main_anil_mathew_heading {
-  font-size: 188px;
-  line-height: 141px;
-}
+
  .main_about_heading{
      font-size: 130px;
     line-height: 110px;
@@ -40,8 +37,8 @@
 .home_vision_section{
   background-image: url('/images/home/bg1.png'), url('/images/home/bg2.png');
    background-repeat: no-repeat, no-repeat;
-  background-size: 1052px, 1052px;
-  background-position: 100% 35%,  -1% 135% !important;
+  background-size: 54%, 54%;
+  background-position: 100% 30%, 0% 122% !important;
 }
 .about_vision_section{
   background-image: url('/images/about/idea_bg1.png'), url('/images/about/idea_bg2.png');
@@ -64,12 +61,11 @@
   background-size: cover;
   background-position: center !important;
 }
-/* .speaking_bg{
-  background: url("/images/speaking/hero.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center !important;
-} */
+  .main_anil_mathew_heading {
+  font-size: 150px;
+  line-height: 120px;
+}
+
 
 @media screen and (max-width: 1700px) {
   .main_anil_mathew_heading {
@@ -118,6 +114,10 @@
 
 }
 @media screen and (min-width: 1800px) {
+  .main_anil_mathew_heading {
+  font-size: 188px;
+  line-height: 141px;
+}
  .vision_section_padding{
   padding-left: 295px;
   padding-right: 295px;

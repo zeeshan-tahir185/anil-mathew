@@ -26,7 +26,7 @@ const HomeHero = () => {
               className="w-[122px] md:w-[152px] "
             />
           </Link>
-          <ul className="hidden md:flex gap-8 uppercase font-inter font-medium text-sm text-[#111111]">
+          <ul className="hidden lg:flex gap-4 2xl:gap-8 uppercase font-inter font-medium text-xs xl:text-sm text-[#111111]">
             {navItems.map((item) => {
               const isActive = pathname === item.path;
 
@@ -50,7 +50,7 @@ const HomeHero = () => {
               );
             })}
           </ul>
-          <button className="md:hidden" onClick={() => setOpen(!open)}>
+          <button className="lg:hidden" onClick={() => setOpen(!open)}>
             {open ? (
               <Image
                 src="/images/header/close.png"
@@ -81,12 +81,12 @@ const HomeHero = () => {
               open ? "translate-y-0" : "-translate-y-10"
             }`}
           >
-            <div className="flex flex-col gap-4 md:gap-8 px-[59px]">
+            <div className="flex flex-col gap-4 lg:gap-8 px-[59px]">
               <p className="text-sm sm:text-base font-inter text-[#E8DCCB] uppercase">
                 Main Menu
               </p>
 
-              <ul className="flex flex-col gap-4 md:gap-8 text-[25px] md:text-[36px] font-charter text-[#E8DCCB]">
+              <ul className="flex flex-col gap-4 md:gap-8 text-[25px] 2xl:text-[36px] font-charter text-[#E8DCCB]">
                 <li>
                   <Link href="/about-anil-mathews">About</Link>
                 </li>
@@ -122,16 +122,16 @@ const HomeHero = () => {
           height={527}
           className="w-full lg:hidden mt-[-40px]"
         />
-        <div className="w-full lg:w-[40%] 2xl:w-[1000px] flex flex-col justify-center gap-[20px] lg:gap-[100px] 2xl:gap-[170px]">
-          <div className="flex items-start gap-4 lg:gap-6 w-full lg:w-[442px]">
+        <div className="w-full lg:w-[40%] xl:w-[48%] 2xl:w-[650px] flex flex-col justify-center gap-[20px] lg:gap-[70px] xl:gap-100px] 2xl:gap-[170px]">
+          <div className="flex items-start gap-4 xl:gap-6 w-full xl:w-[442px]">
             <Image
               src="/images/home/hero_icon.png"
               alt="img icon"
               width={37}
               height={37}
-              className="w-[25px] lg:w-[37px] lg:mt-[-30px]"
+              className="w-[25px] lg:w-[37px] lg:mt-[-20px] xl:mt-[-30px]"
             />
-            <p className="font-inter text-sm md:text-base md:leading-[20px] uppercase">
+            <p className="font-inter text-sm xl:text-base md:leading-[20px] uppercase w-[calc(100%-37px)]">
               He founded Near Intelligence and led it from a small data
               experiment to a{" "}
               <span className="font-semibold text-[#1A3470]">
@@ -140,8 +140,8 @@ const HomeHero = () => {
               operating across four continents.{" "}
             </p>
           </div>
-          <div className="flex flex-col gap-[20px] lg:gap-[30px]">
-            <p className="font-inter text-base uppercase text-[#111111] ml-2 lg:ml-[50px]">
+          <div className="flex flex-col gap-[20px] xl:gap-[30px]">
+            <p className="font-inter text-base uppercase text-[#111111] ml-2 lg:ml-[30px] xl:ml-[50px]">
               Hello, I’m 👋
             </p>
             <div>
@@ -188,13 +188,13 @@ const HomeHero = () => {
             </div>
           </div>
         </div>
-        <div className="home_hero_bg hidden lg:block w-[60%] xl:w-[814px] min-h-[900px] xl:min-h-[970px] ">
+        <div className="home_hero_bg hidden lg:block w-[60%] xl:w-[50%] 2xl:w-[700px] 3xl:w-[814px] min-h-[800px] xl:min-h-[900] 2xl:min-h-[970px] ">
           <Image
             src="/images/home/home_hero.svg"
             alt="home hero"
             width={814}
             height={1038}
-            className="z-10 absolute top-[9px] right-[10px] lg:right-[25px]"
+            className="z-10 absolute top-[9px] right-[10px] lg:right-[25px] lg:w-[580px] xl:w-[50%] 2xl:w-[700px] [@media(min-width:1530px)]:w-[814px]"
           />
           <div className="z-30 absolute "></div>
         </div>
@@ -204,3 +204,6 @@ const HomeHero = () => {
 };
 
 export default HomeHero;
+
+
+// min-[1100px]:w-[700px] 
