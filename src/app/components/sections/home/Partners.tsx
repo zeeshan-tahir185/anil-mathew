@@ -46,7 +46,7 @@ const repeatedLogos = [...logos, ...logos, ...logos];
 
 const Partners = () => {
     return (
-        <div className="w-full xl:w-[1076px] mx-auto flex flex-col gap-4 md:gap-8 justify-center items-center py-8 md:py-[120px]">
+        <div className="w-full xl:w-[1076px] mx-auto flex flex-col gap-4 md:gap-8 justify-center items-center py-[70px] md:py-[120px]">
             <p className="font-inter text-sm md:text-base uppercase text-[#1A1A1A] " style={{letterSpacing:"-0.16px"}}>
                 As seen on
             </p>
@@ -67,7 +67,7 @@ const Partners = () => {
                             key={index}
                             src={logo.img}
                             alt={`Logo ${index + 1}`}
-                            className="object-contain mx-5 "
+                            className="object-contain mx-2 lg:mx-5 "
                         />
                        </Link>
                     ))}

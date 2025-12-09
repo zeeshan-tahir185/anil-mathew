@@ -12,8 +12,8 @@ const Footer = () => {
         alt="footer image"
         className="w-full"
       />
-      <div className="max-w-[1330px] mx-auto lg:mx-auto text-center px-3  w-[95%] min-h-[304px] bg-[#1A1A1A] rounded-[14px] lg:rounded-[24px] flex flex-col  gap-[30px] items-center justify-center mt-[-40px]">
-        <p className="text-base lg:text-[24px] font-inter bg-[#E8DCCB]/60 bg-clip-text text-transparent mt-[40px] w-full lg:w-[428px]">
+      <div className="max-w-[1330px] mx-auto lg:mx-auto text-center px-3 w-[95%] min-h-[304px] bg-[#1A1A1A] rounded-[14px] lg:rounded-[24px] flex flex-col  gap-[30px] items-center justify-center mt-[-5px] lg:mt-[-40px]">
+        <p className="text-base lg:text-[24px] font-inter bg-[#E8DCCB]/80 bg-clip-text text-transparent mt-0 lg:mt-[40px] w-full lg:w-[428px]">
           For interviews, speaking, or <br className="lg:hidden" />
           partnerships, reach out on LinkedIn.
         </p>
@@ -82,8 +82,7 @@ const Footer = () => {
             Alphabyte{" "}
           </Link>
         </p>
-      
-        <Image src="/images/footer.png" width={168} height={26} alt="footer text" className="mt-[30px] md:mt-[40px] mb-2" />
+        <Image src="/images/footer.png" width={168} height={26} alt="footer text" className="mt-[50px] lg:mt-[30px] md:mt-[40px] mb-2" />
       </div>
     </div>
   );

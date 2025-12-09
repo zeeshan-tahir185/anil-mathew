@@ -5,8 +5,8 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 
 const Vision = () => {
   return (
-    <div className="bg-[#0D0F13] py-[50px] md:py-[100px] xl:pt-[244px] xl:pb-[200px] flex flex-col gap-[30px] lg:gap-[100px] home_vision_section">
-      <div className="flex flex-col gap-6 px-4 md:px-[50px] xl:px-[100px] 2xl:px-[130px] vision_section_padding max-w-[1920px] mx-auto">
+    <div className="bg-[#0D0F13] py-[35px] md:py-[100px] xl:pt-[244px] xl:pb-[200px] flex flex-col gap-[50px] lg:gap-[100px] home_vision_section">
+      <div className="flex flex-col gap-4 px-4 md:px-[50px] xl:px-[100px] 2xl:px-[130px] vision_section_padding max-w-[1920px] mx-auto">
         <div className="flex flex-col lg:flex-row gap-6 lg:gap-24 justify-between items-center">
           <Image
             src="/images/home/vision.png"
@@ -38,7 +38,7 @@ const Vision = () => {
           Nasdaq Listing Day, Times Square
         </p>
       </div>
-      <div className="flex flex-col gap-6 px-4 md:px-[50px] xl:px-[100px] 2xl:px-[130px] vision_section_padding items-center lg:items-start mx-auto w-full max-w-[1920px] mx-auto">
+      <div className="flex flex-col gap-4 px-4 md:px-[50px] xl:px-[100px] 2xl:px-[130px] vision_section_padding items-center lg:items-start mx-auto w-full max-w-[1920px] mx-auto">
         <h2
           className="font-charter text-[36px] lg:text-[64px] text-[#E8DCCB]"
           style={{ letterSpacing: "-2px" }}
@@ -97,7 +97,7 @@ const Vision = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col gap-6 px-4 md:px-[50px] xl:px-[100px] 2xl:px-[130px] vision_section_padding items-start mx-auto w-full max-w-[1920px] mx-auto">
+      <div className="flex flex-col gap-4 px-4 md:px-[50px] xl:px-[100px] 2xl:px-[130px] vision_section_padding items-start mx-auto w-full max-w-[1920px] mx-auto">
         <h2
           className="font-charter text-[36px] lg:text-[64px] text-[#E8DCCB]"
           style={{ letterSpacing: "-2px" }}
@@ -105,7 +105,7 @@ const Vision = () => {
           Milestones
         </h2>
         <div className="w-full flex flex-wrap lg:flex-nowrap gap-[10px] lg:gap-[27px]">
-          <div className="w-[48%] sm:w-auto px-[20px] lg:max-w-[175px] py-[30px] min-h-[207px] lg:min-h-[376px] flex flex-col justify-between border border-[#E8DCCB26] backdrop-blur-xl rounded-[14px] lg:rounded-[24px] bg-[#FFFFFF03]">
+          <div className="w-[48%] sm:w-auto px-[20px] lg:max-w-[175px] py-[25px] min-h-[207px] lg:min-h-[376px] flex flex-col justify-between border border-[#E8DCCB26] backdrop-blur-xl rounded-[14px] lg:rounded-[24px] bg-[#FFFFFF03]">
             <p className="text-[#E8DCCB] font-inter text-sm2xlg:text-base uppercase">
               Companies founded
             </p>
@@ -113,7 +113,7 @@ const Vision = () => {
               4
             </p>
           </div>
-          <div className="bg-[#FFFFFF03] w-[48%] sm:w-auto px-[20px] lg:max-w-[175px] py-[30px] min-h-[207px] lg:min-h-[376px] flex flex-col justify-between border border-[#E8DCCB26] backdrop-blur-xl rounded-[14px] lg:rounded-[24px]">
+          <div className="bg-[#FFFFFF03] w-[48%] sm:w-auto px-[20px] lg:max-w-[175px] py-[25px] min-h-[207px] lg:min-h-[376px] flex flex-col justify-between border border-[#E8DCCB26] backdrop-blur-xl rounded-[14px] lg:rounded-[24px]">
             <p className="text-[#E8DCCB] font-inter text-sm 2xl:text-base uppercase">
               Public listing on Nasdaq
             </p>
@@ -121,7 +121,7 @@ const Vision = () => {
               1
             </p>
           </div>
-          <div className="bg-[#FFFFFF03] w-[38%] sm:w-auto px-[20px] lg:max-w-[175px] py-[30px] min-h-[207px] lg:min-h-[376px] flex flex-col justify-between border border-[#E8DCCB26] backdrop-blur-xl rounded-[14px] lg:rounded-[24px]">
+          <div className="bg-[#FFFFFF03] w-[38%] sm:w-auto px-[20px] lg:max-w-[175px] py-[25px] min-h-[207px] lg:min-h-[376px] flex flex-col justify-between border border-[#E8DCCB26] backdrop-blur-xl rounded-[14px] lg:rounded-[24px]">
             <p className="text-[#E8DCCB] font-inter text-sm 2xl:text-base uppercase">
               Strategic acquisitions
             </p>
@@ -129,7 +129,7 @@ const Vision = () => {
               2
             </p>
           </div>
-          <div className="w-[59%] sm:w-auto px-[20px] lg:max-w-[200px] 2xl:max-w-[282px] py-[30px] min-h-[207px] lg:min-h-[376px] flex flex-col justify-between border border-[#E8DCCB26] backdrop-blur-[150px] vision_bg rounded-[14px] lg:rounded-[24px]">
+          <div className="w-[59%] bg-[#FFFFFF03] sm:w-auto px-[35px] lg:max-w-[200px] 2xl:max-w-[282px] py-[25px] min-h-[207px] lg:min-h-[376px] flex flex-col justify-between border border-[#E8DCCB26] backdrop-blur-[150px] vision_bg rounded-[14px] lg:rounded-[24px]">
             <p className="text-[#E8DCCB] font-inter text-sm 2xl:text-base uppercase">
               Raised across equity and debt
             </p>
@@ -137,7 +137,7 @@ const Vision = () => {
               $235M
             </p>
           </div>
-          <div className="bg-[#FFFFFF03] w-[48%] sm:w-auto px-[20px] lg:max-w-[175px] py-[30px] min-h-[207px] lg:min-h-[376px] flex flex-col justify-between border border-[#E8DCCB26] backdrop-blur-xl rounded-[14px] lg:rounded-[24px]">
+          <div className="bg-[#FFFFFF03] w-[48%] sm:w-auto px-[20px] lg:max-w-[175px] py-[25px] min-h-[207px] lg:min-h-[376px] flex flex-col justify-between border border-[#E8DCCB26] backdrop-blur-xl rounded-[14px] lg:rounded-[24px]">
             <p className="text-[#E8DCCB] font-inter text-sm 2xl:text-base uppercase">
               Markets served
             </p>
@@ -145,7 +145,7 @@ const Vision = () => {
               40+
             </p>
           </div>
-          <div className="bg-[#FFFFFF03] w-[48%] sm:w-auto px-[20px] lg:max-w-[212px] py-[30px] min-h-[207px] lg:min-h-[376px] flex flex-col justify-between border border-[#E8DCCB26] backdrop-blur-xl rounded-[14px] lg:rounded-[24px]">
+          <div className="bg-[#FFFFFF03] w-[48%] sm:w-auto px-[20px] lg:max-w-[212px] py-[25px] min-h-[207px] lg:min-h-[376px] flex flex-col justify-between border border-[#E8DCCB26] backdrop-blur-xl rounded-[14px] lg:rounded-[24px]">
             <p className="text-[#E8DCCB] font-inter text-sm 2xl:text-base uppercase">
               Years building technology
             </p>
@@ -154,8 +154,8 @@ const Vision = () => {
             </p>
           </div>
         </div>
-        <Link href="/about-anil-mathews" className="mx-auto">
-          <button className="text-[#111111] cursor-pointer font-inter font-medium text-sm lg:text-base uppercase mx-auto lg:mt-[30px] w-full md:w-[361px] bg-[#E8DCCB] border border-[#11141826] rounded-full h-[46px] flex justify-center items-center gap-2 ">
+        <Link href="/about-anil-mathews" className="mx-auto w-full">
+          <button className="text-[#111111] cursor-pointer font-inter font-medium text-sm lg:text-base uppercase mx-auto lg:mt-[30px] w-[330px] md:w-[361px] bg-[#E8DCCB] border border-[#11141826] rounded-full h-[50px] lg:h-[46px] mb-[60px] mt-[2px] lg:mb-0 flex justify-center items-center gap-2 ">
             Learn more about Anil Mathews{" "}
             <MdKeyboardArrowRight className="text-2xl" />
           </button>

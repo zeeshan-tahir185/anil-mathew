@@ -67,11 +67,11 @@ export default function Media() {
   return (
     <div className="py-[60px] lg:py-[150px] gap-6 lg:gap-9 flex flex-col items-center max-w-[1920px] mx-auto">
       {/* Heading */}
-      <div className="flex gap-12 items-center">
-        <h2 className="font-charter text-[36px] lg:text-[64px] text-[#111111] leading-[36px] lg:leading-[64px] -tracking-[2px]">
+      <div className="flex gap-12 items-center mx-auto ">
+        <h2 className=" font-charter text-[36px] lg:text-[64px] text-[#111111] leading-[36px] lg:leading-[64px] -tracking-[2px]">
           In the media
         </h2>
-        <Link href="/press">
+        <Link href="/press" className="hidden lg:flex">
           <button className="items-center cursor-pointer w-full hidden lg:flex lg:w-[305px] bg-[#E8DCCB] text-[#1A3470] border border-[#E8DCCB26] h-[46px] rounded-full flex items-center justify-center gap-1 uppercase text-sm lg:text-base font-inter">
             See all press and interviews <MdKeyboardArrowRight className="text-2xl" />
           </button>
@@ -108,7 +108,7 @@ export default function Media() {
               />
 
               <div className="flex flex-col absolute bottom-0 z-20 p-5 lg:p-10">
-                <p className="font-charter uppercase text-3xl lg:text-[55px] text-[#F7F4F1] font-semibold leading-[30px] lg:leading-[55px]">
+                <p className="font-charter uppercase text-[36px] lg:text-[40px] xl:text-[45px] 2xl:text-[55px] [@media(min-width:1700px)]:text-[64px] text-[#F7F4F1] font-semibold leading-[100%]">
                   {slide.text}
                 </p>
                 <div className="flex flex-col lg:flex-row gap-3 lg:items-end">

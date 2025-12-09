@@ -70,7 +70,7 @@ const HomeHero = () => {
         </header>
 
         <div
-          className={` md:hidden  fixed inset-0 z-40 flex justify-center items-start transition-all duration-300 ${
+          className={` md:hidden fixed inset-0 z-40 flex justify-center items-start transition-all duration-300 ${
             open
               ? "opacity-100 pointer-events-auto"
               : "opacity-0 pointer-events-none"
@@ -103,18 +103,21 @@ const HomeHero = () => {
             </div>
 
             <div className="mt-10 flex flex-col gap-4 w-full px-[39px]">
-              <button className="w-full bg-[#1A3470] text-[#E8DCCB] h-[50px] backdrop-blur-[25px] flex justify-center items-center gap-2 rounded-full uppercase text-sm font-inter font-medium ">
-                Explore Ventures <MdKeyboardArrowRight className="text-2xl" />
-              </button>
-
-              <button className="w-full bg-[#E8DCCB12] backdrop-blur-[25px] border border-[#11141826] flex justify-center items-center gap-2 text-[#E8DCCB] h-[50px] rounded-full uppercase text-sm font-inter font-medium ">
-                See Press <MdKeyboardArrowRight className="text-2xl" />
-              </button>
+              <Link href="/ventures">
+                <button className="w-full bg-[#1A3470] text-[#E8DCCB] h-[50px] backdrop-blur-[25px] flex justify-center items-center gap-2 rounded-full uppercase text-sm font-inter font-medium ">
+                  Explore Ventures <MdKeyboardArrowRight className="text-2xl" />
+                </button>
+              </Link>
+              <Link href="/press">
+                <button className="w-full bg-[#E8DCCB12] backdrop-blur-[25px] border border-[#11141826] flex justify-center items-center gap-2 text-[#E8DCCB] h-[50px] rounded-full uppercase text-sm font-inter font-medium ">
+                  See Press <MdKeyboardArrowRight className="text-2xl" />
+                </button>
+              </Link>
             </div>
           </div>
         </div>
       </div>
-      <div className="flex flex-col lg:flex-row px-4 md:px-12 main_padding_left gap-[30px] lg:gap-0">
+      <div className="flex flex-col lg:flex-row px-4 md:px-12 main_padding_left gap-[20px] lg:gap-0">
         <Image
           src="/images/home/home_hero_mob.png"
           alt="img icon"
@@ -173,18 +176,18 @@ const HomeHero = () => {
               Alphabyte Ventures, I’m creating products that make progress
               faster, decisions clearer, and teams more effective.
             </p>
-            <div className="mt-[20px] flex flex-col sm:flex-row flex-wrap gap-4 w-full">
+            <div className="mt-[20px] flex flex-col sm:flex-row flex-wrap gap-4 w-full lg:mx-0">
               <Link href="/ventures">
-                <button className="cursor-pointer mx-auto md:mx-0 w-full md:w-[231px] bg-[#1A3470] text-[#E8DCCB] h-[46px] backdrop-blur-[25px] flex justify-center items-center gap-2 rounded-full uppercase text-sm font-inter font-medium ">
+                <button className="cursor-pointer mx-auto md:mx-0 w-[342px] sm:w-full md:w-[231px] bg-[#1A3470] text-[#E8DCCB] h-[50px] lg:h-[46px] backdrop-blur-[25px] flex justify-center items-center gap-2 rounded-full uppercase text-sm font-inter font-medium ">
                   Explore Ventures <MdKeyboardArrowRight className="text-2xl" />
                 </button>
               </Link>
 
-             <Link href="/press">
-              <button className="cursor-pointer mx-auto md:mx-0 w-full md:w-[155px] bg-[#E8DCCB03] backdrop-blur-[25px] border border-[#11141826] flex justify-center items-center gap-2 text-[#111111] h-[46px] rounded-full uppercase text-sm font-inter font-medium ">
-                See Press <MdKeyboardArrowRight className="text-2xl" />
-              </button>
-             </Link>
+              <Link href="/press">
+                <button className="cursor-pointer mx-auto md:mx-0 w-[342px] sm:w-full md:w-[155px] bg-[#E8DCCB03] backdrop-blur-[25px] border border-[#11141826] flex justify-center items-center gap-2 text-[#111111] h-[44px] lg:h-[46px] rounded-full uppercase text-sm font-inter font-medium ">
+                  See Press <MdKeyboardArrowRight className="text-2xl" />
+                </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -205,5 +208,4 @@ const HomeHero = () => {
 
 export default HomeHero;
 
-
-// min-[1100px]:w-[700px] 
+// min-[1100px]:w-[700px]
