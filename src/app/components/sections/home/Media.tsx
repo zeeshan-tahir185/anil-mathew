@@ -126,6 +126,7 @@ export default function Media() {
             key={i}
             className="shrink-0 px-1 lg:px-2 basis-[80%] md:basis-[60%] lg:basis-[45%]"
           >
+            <Link href={slide.link} target="_blank">
             <div className="relative w-full border border-[#E8DCCB26] overflow-hidden rounded-[14px] group h-[405px] lg:h-auto">
               <Image
                 src={slide.icon}
@@ -150,14 +151,14 @@ export default function Media() {
                   <p className="text-xs lg:text-sm text-[#E8DCCB] uppercase">
                     {slide.para}
                   </p>
-                  <Link href={slide.link} target="_blank">
+                  
                     <button className="cursor-pointer text-base uppercase text-[#F7F4F1] font-medium flex items-center gap-3">
                       Watch <MdArrowOutward />
                     </button>
-                  </Link>
                 </div>
               </div>
             </div>
+            </Link>
           </SwiperSlide>
         ))}
       </Swiper>
