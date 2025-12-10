@@ -72,7 +72,7 @@ const PressHero = () => {
               <p className="text-sm lg:text-base text-[#F7F4F1] uppercase font-inter z-20 ">
                 March 23, 2023 04:38 MINS
               </p> 
-              <Link className="w-full"
+              <Link className="min-w-[200px]"
                 href="https://www.facebook.com/schwabnetwork/videos/near-nir-ceo-anir-mathews-with-a-company-overview/239237531816869/"
                 target="_blank"
                 rel="nofollow noopener"
@@ -108,7 +108,7 @@ const PressHero = () => {
               <p className="text-sm lg:text-base text-[#F7F4F1] uppercase font-inter z-20 ">
                 March 24, 2023 00:58 MINS
               </p>
-              <Link className="w-full"
+              <Link className="min-w-[200px]"
                 href="https://www.nasdaq.com/videos/near-intelligence-rings-the-nasdaq-stock-market-opening-bell"
                 target="_blank"
                 rel="nofollow noopener"

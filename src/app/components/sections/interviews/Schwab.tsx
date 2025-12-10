@@ -83,7 +83,7 @@ const Schwab = () => {
         </Link>
       </div>
       <div className="lg:mt-[-20px] flex flex-col sm:flex-row flex-wrap gap-4 w-full justify-center items-center">
-        <Link className="w-full"
+        <Link className="w-full md:w-[316px]"
           href="https://www.facebook.com/tdameritradenetwork/videos/near-nir-ceo-anir-mathews-with-a-company-overview/239237531816869/?_rdr"
           target="_blank"
           rel="nofollow noopener"
@@ -93,12 +93,12 @@ const Schwab = () => {
             <MdKeyboardArrowRight className="text-2xl" />
           </button>
         </Link>
-        <Link href="/press" className="w-full">
+        <Link href="/press" className="w-full md:w-[189px]">
           <button className="cursor-pointer mx-auto md:mx-0 w-full md:w-[189px] bg-[#E8DCCB03] backdrop-blur-[25px] border border-[#11141826] flex justify-center items-center gap-2 text-[#111111] h-[46px] rounded-full uppercase text-sm font-inter font-medium ">
             See all press <MdKeyboardArrowRight className="text-2xl" />
           </button>
         </Link>
-        <Link href="/about-anil-mathews" className="w-full">
+        <Link href="/about-anil-mathews" className="w-full md:w-[254px]">
           <button className="cursor-pointer mx-auto md:mx-0 w-full md:w-[254px] bg-[#E8DCCB03] backdrop-blur-[25px] border border-[#11141826] flex justify-center items-center gap-2 text-[#111111] h-[46px] rounded-full uppercase text-sm font-inter font-medium ">
             About Anil Mathews <MdKeyboardArrowRight className="text-2xl" />
           </button>

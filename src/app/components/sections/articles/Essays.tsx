@@ -15,7 +15,7 @@ const Essays = () => {
             Selected essays <br className="lg:hidden" /> and op-eds
           </h2>
           <div className="flex flex-col lg:flex-row flex-wrap gap-6 lg:gap-[25px] w-full items-center lg:items-start justify-center">
-            <div className="flex flex-col gap-6 lg:gap-8 items-center lg:items-start text-center lg:text-left w-full sm:w-[500px] xl:w-[400px] 2xl:w-[450px] relative card_custom_width">
+            <div className="flex flex-col gap-6 lg:gap-8 items-center lg:items-start text-center lg:text-left w-full sm:w-[500px] xl:w-[31%] relative ">
               <button className="lg:w-[264px] lg:h-[38px] uppercase font-inter text-sm cursor-pointer font-medium text-[#111111] lg:text-[#1A3470] lg:font-semibold py-[6px] absolute top-[13px] right-[13px] lg:top-[20px] lg:right-[20px] px-[18px] bg-[#E8DCCB] rounded-full">
                 Forbes Technology Council
               </button>
@@ -43,7 +43,7 @@ const Essays = () => {
               </Link>
             </div>
 
-            <div className="flex flex-col gap-6 lg:gap-8 items-center lg:items-start text-center lg:text-left w-full sm:w-[500px] xl:w-[400px] 2xl:w-[450px] relative card_custom_width">
+            <div className="flex flex-col gap-6 lg:gap-8 items-center lg:items-start text-center lg:text-left w-full sm:w-[500px] xl:w-[31%] relative ">
               <button className="lg:w-[264px] lg:h-[38px] uppercase font-inter text-sm cursor-pointer font-medium text-[#111111] lg:text-[#1A3470] lg:font-semibold py-[6px] absolute top-[13px] right-[13px] lg:top-[20px] lg:right-[20px] px-[18px] bg-[#E8DCCB] rounded-full">
                 Forbes Technology Council
               </button>
@@ -72,7 +72,7 @@ const Essays = () => {
               </Link>
             </div>
 
-            <div className="flex flex-col gap-6 lg:gap-8 items-center lg:items-start text-center lg:text-left w-full sm:w-[500px] xl:w-[400px] 2xl:w-[450px] relative card_custom_width">
+            <div className="flex flex-col gap-6 lg:gap-8 items-center lg:items-start text-center lg:text-left w-full sm:w-[500px] xl:w-[31%] relative ">
               <button className="lg:w-[264px] lg:h-[38px] uppercase font-inter text-sm cursor-pointer font-medium text-[#111111] lg:text-[#1A3470] lg:font-semibold py-[6px] absolute top-[13px] right-[13px] lg:top-[20px] lg:right-[20px] px-[18px] bg-[#E8DCCB] rounded-full">
                 Forbes Technology Council
               </button>
@@ -110,7 +110,7 @@ const Essays = () => {
             LinkedIn Essays
           </h2>
           <div className="flex flex-col lg:flex-row flex-wrap gap-6 lg:gap-[25px] w-full items-center lg:items-start justify-center">
-            <div className="flex flex-col gap-6 lg:gap-8 items-center lg:items-start text-center lg:text-left w-full sm:w-[500px] xl:w-[400px] 2xl:w-[450px] relative card_custom_width">
+            <div className="flex flex-col gap-6 lg:gap-8 items-center lg:items-start text-center lg:text-left w-full sm:w-[500px] xl:w-[31%] relative ">
               <button className="lg:w-[152px] lg:h-[38px] uppercase font-inter text-sm cursor-pointer font-medium text-[#111111] lg:text-[#1A3470] lg:font-semibold py-[6px] absolute top-[13px] right-[13px] lg:top-[20px] lg:right-[20px] px-[18px] bg-[#E8DCCB] rounded-full">
                 LinkedIn Essay
               </button>
@@ -138,7 +138,7 @@ const Essays = () => {
              </Link>
             </div>
 
-            <div className="flex flex-col gap-6 lg:gap-8 items-center lg:items-start text-center lg:text-left w-full sm:w-[500px] xl:w-[400px] 2xl:w-[450px] relative card_custom_width">
+            <div className="flex flex-col gap-6 lg:gap-8 items-center lg:items-start text-center lg:text-left w-full sm:w-[500px] xl:w-[31%] relative ">
               <button className="lg:w-[152px] lg:h-[38px] uppercase font-inter text-sm cursor-pointer font-medium text-[#111111] lg:text-[#1A3470] lg:font-semibold py-[6px] absolute top-[13px] right-[13px] lg:top-[20px] lg:right-[20px] px-[18px] bg-[#E8DCCB] rounded-full">
                 LinkedIn Essay
               </button>
@@ -166,7 +166,7 @@ const Essays = () => {
              </Link>
             </div>
 
-            <div className="flex flex-col gap-6 lg:gap-8 items-center lg:items-start text-center lg:text-left w-full sm:w-[500px] xl:w-[400px] 2xl:w-[450px] relative card_custom_width">
+            <div className="flex flex-col gap-6 lg:gap-8 items-center lg:items-start text-center lg:text-left w-full sm:w-[500px] xl:w-[31%] relative ">
               <button className="lg:w-[152px] lg:h-[38px] uppercase font-inter text-sm cursor-pointer font-medium text-[#111111] lg:text-[#1A3470] lg:font-semibold py-[6px] absolute top-[13px] right-[13px] lg:top-[20px] lg:right-[20px] px-[18px] bg-[#E8DCCB] rounded-full">
                 LinkedIn Essay
               </button>
