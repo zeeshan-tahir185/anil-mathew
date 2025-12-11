@@ -6,7 +6,7 @@ import { MdKeyboardArrowRight } from 'react-icons/md'
 const ClipsAndFeatures = () => {
     return (
 
-        <div className='max-w-[1920px] mx-auto w-full py-[55px] items-center text-center gap-6 lg:gap-[60px] lg:py-[160px] px-4 lg:px-[80px] xl:px-[120px] 2xl:px-[150px] ventures_prev_main flex flex-col gap-6'>
+        <div className='max-w-[1920px] mx-auto w-full py-[55px] items-center text-center gap-6 lg:gap-[60px] lg:py-[100px] xl:py-[150px] px-4 lg:px-[80px] xl:px-[120px] 2xl:px-[150px] ventures_prev_main flex flex-col gap-6'>
             <h2 className='font-charter text-[36px] lg:text-[64px] leading-[36px] lg:leading-[64px] text-[#111111]' style={{ letterSpacing: "-2px" }}>Clips and features</h2>
             <div className='flex flex-col lg:flex-row gap-6 w-full'>
                 <div className='w-full lg:w-[50%] relative min-h-[450px] lg:min-h-auto'>

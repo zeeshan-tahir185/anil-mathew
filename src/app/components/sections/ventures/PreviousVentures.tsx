@@ -5,7 +5,7 @@ import React from 'react'
 const PreviousVentures = () => {
     return (
        <div className='bg-[#0D0F13]'>
-         <div className='max-w-[1920px] mx-auto w-full py-[55px] lg:py-[180px] px-4 lg:px-[80px] xl:px-[120px] 2xl:px-[150px] ventures_prev_main flex flex-col gap-6'>
+         <div className='max-w-[1920px] mx-auto w-full py-[55px] lg:py-[100px] xl:py-[150px] 2xl:py-[180px] px-4 lg:px-[80px] xl:px-[120px] 2xl:px-[150px] ventures_prev_main flex flex-col gap-6'>
             <p className='font-inter font-medium text-sm uppercase text-[#E8DCCB] text-center '>Previous ventures</p>
             <div className='flex flex-col lg:flex-row lg:flex-row gap-6 items-center'>
                 <div className='lg:p-[50px] p-[15px] flex flex-col gap-[32px] lg:gap-[130px] w-full lg:w-[500px] xl:w-[50%] border border-[#E8DCCB26] rounded-[24px]'>
@@ -21,13 +21,13 @@ const PreviousVentures = () => {
                         <div className='flex flex-col gap-4'>
                             <p className=' text-base font-inter uppercase text-[#E8DCCB]'>Coverage</p>
                             <Link href="https://techcrunch.com/2022/05/19/data-intelligence-startup-near-with-1-6b-anonymized-user-ids-lists-on-nasdaq-via-spac-at-a-1b-market-cap-raises-100m/" target="_blank" rel="nofollow noopener">
-                            <h2 className='font-charter font-black text-[36px] leading-[36px] lg:text-[64px] lg:leading-[64px] text-[#E8DCCB] uppercase'>TechCrunch</h2>
+                            <h2 className='font-charter font-black text-[36px] xl:text-[52px] 2xl:text-[64px] leading-[100%] text-[#E8DCCB] uppercase'>TechCrunch</h2>
                             </Link>
                         </div>
                          <div className='flex flex-col gap-4'>
                             <p className='text-base font-inter uppercase text-[#E8DCCB]'>Interview</p>
                             <Link href="https://www.bloomberg.com/news/videos/2023-03-24/near-intelligence-s-mathews-on-spac-deal-video" target="_blank" rel="nofollow noopener">
-                            <h2 className='font-charter font-black text-[36px] leading-[36px] lg:text-[64px] lg:leading-[64px] text-[#E8DCCB] uppercase'>Bloomberg TV</h2>
+                            <h2 className='font-charter font-black text-[36px] xl:text-[52px] 2xl:text-[64px] leading-[100%] text-[#E8DCCB] uppercase'>Bloomberg TV</h2>
                             </Link>
                         </div>
 

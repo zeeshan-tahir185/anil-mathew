@@ -3,7 +3,7 @@ import React from 'react'
 
 const OfficialCitations = () => {
     return (
-        <div className='bg-[#E8DCCB] py-[40px] md:py-[100px] xl:py-[153px] w-full'>
+        <div className='bg-[#E8DCCB] py-[40px] md:py-[100px] xl:py-[150px] w-full'>
             <div className='flex flex-col items-start gap-4 lg:gap-8 px-4 md:px-[50px] xl:px-[100px] 2xl:px-[130px] vision_section_padding max-w-[1920px] mx-auto w-full'>
                 <h2 className='font-charter text-[36px] lg:text-[64px] leading-[36px] lg:leading-[64px] text-[#111111]' style={{ letterSpacing: "-2px" }}>Official citations</h2>
                 <p className='text-[#111111] opacity-65 font-inter text-base lg:text-xl'>All coverage and interviews are verifiable through the following primary sources:</p>

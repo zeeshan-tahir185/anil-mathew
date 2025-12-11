@@ -5,7 +5,7 @@ import { MdAccessTime, MdKeyboardArrowRight } from "react-icons/md";
 
 const Absolute = () => {
   return (
-    <div className="px-4 max-w-[1920px] mx-auto py-[35px] lg:py-[90px] w-full xl:w-[1100px] flex flex-col gap-[30px] lg:gap-[70px]">
+    <div className="px-4 max-w-[1920px] mx-auto py-[35px] lg:pt-[80px] lg:pb-[130px]  w-full xl:w-[1100px] flex flex-col gap-[30px] lg:gap-[70px]">
       <div className="flex flex-col gap-[20px] lg:gap-[30px] text-left">
         <h1
           className="font-charter text-[36px] lg:text-[64px] leading-[36px] lg:leading-[64px] text-[#111111]"

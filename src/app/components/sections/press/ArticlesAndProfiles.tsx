@@ -5,7 +5,7 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 
 const ArticlesAndProfiles = () => {
   return (
-    <div className="bg-[#0D0F13] py-[65px] md:py-[100px] xl:py-[188px] flex flex-col gap-[30px] lg:gap-[100px] w-full">
+    <div className="bg-[#0D0F13] py-[65px] lg:py-[100px] xl:py-[150px] 2xl:py-[188px] flex flex-col gap-[30px] lg:gap-[100px] w-full">
       <div className="flex flex-col items-center lg:items-start gap-6 lg:gap-[64px] px-4 md:px-[50px] xl:px-[100px] 2xl:px-[130px] vision_section_padding max-w-[1920px] mx-auto w-full">
         <h2
           className="font-charter text-[36px] lg:text-[64px] leading-[36px] lg:leading-[64px] text-[#E8DCCB] text-center lg:text-left"

@@ -31,7 +31,7 @@ const TalkThemes = () => {
 
     return (
         <div className='bg-[#111111]/5'>
-            <div className='flex flex-col items-center text-center  justify-center gap-[20px] lg:gap-[50px] py-[50px] lg:py-[130px] px-4 md:px-[50px] xl:px-[100px] 2xl:px-[160px] max-w-[1920px] mx-auto'>
+            <div className='flex flex-col items-center text-center  justify-center gap-[20px] lg:gap-[50px] py-[50px] lg:py-[100px] xl:py-[130px] px-4 md:px-[50px] xl:px-[100px] 2xl:px-[160px] max-w-[1920px] mx-auto'>
 
                 <h2 className='font-charter text-[36px] lg:text-[64px] leading-[36px] lg:leading-[64px] text-[#111111]' style={{ letterSpacing: "-2px" }}>Talk themes</h2>
 

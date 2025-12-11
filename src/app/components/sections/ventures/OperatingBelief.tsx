@@ -6,9 +6,9 @@ const OperatingBelief = () => {
   return (
     <div className="bg-[#111111]">
       <div className="belief_bg">
-        <div className=" my-[60px] lg:my-[160px] mx-auto py-[60px] lg:py-[156px] px-[38px] w-full md:w-[650px] gap-[24px]  flex flex-col items-center justify-center text-center">
+        <div className=" my-[60px] lg:my-[100px] xl:my-[120px] mx-auto py-[60px] lg:py-[100px] xl:py-[140px] px-[38px] w-full md:w-[650px] gap-[24px]  flex flex-col items-center justify-center text-center">
           <h2
-            className="font-charter  leading-[36px] lg:leading-[64px] text-[36px] lg:text-[45px] 2xl:text-[64px] text-[#E8DCCB]"
+            className="font-charter  leading-[100%] text-[36px] lg:text-[45px] 2xl:text-[64px] text-[#E8DCCB]"
             style={{ letterSpacing: "-2px" }}
           >
             Operating Belief
