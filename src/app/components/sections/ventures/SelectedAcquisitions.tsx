@@ -4,7 +4,7 @@ import React from 'react'
 
 const SelectedAcquisitions = () => {
     return (
-        <div className='flex flex-col py-[60px] lg:py-[160px] px-4 md:px-[50px] xl:px-[100px] 2xl:px-[130px] vision_section_padding max-w-[1920px] mx-auto gap-4 lg:gap-[48px]'>
+        <div className='flex flex-col py-[60px] lg:py-[100px] 2xl:py-[160px] px-4 md:px-[50px] xl:px-[100px] 2xl:px-[130px] vision_section_padding max-w-[1920px] mx-auto gap-4 lg:gap-[48px]'>
             <div className='flex flex-col gap-4 lg:gap-6 items-center lg:items-start text-center lg:text-left w-full lg:w-[734px]'>
                 <h2 className='font-charter leading-[36px] lg:leading-[64px] text-[36px] lg:text-[45px] 2xl:text-[64px] text-[#111111]' style={{ letterSpacing: "-2px" }}>Selected Acquisitions </h2>
                 <p className='text-[#111111] opacity-65 font-inter text-base lg:text-xl'>The success of an acquisition is measured by fit, not size. Both strengthened the product and team DNA of Near Intelligence.</p>

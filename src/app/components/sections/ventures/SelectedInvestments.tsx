@@ -17,7 +17,7 @@ const SelectedInvestments = () => {
                     <h3 className='text-[24px] lg:text-[32px] font-charter text-[#111111]'>MEmob+</h3>
                     <p className='text-base lg:text-xl font-inter text-[#111111] '>Near acquires minority stake in data-driven marketing platform MEmob+</p>
                 </div>
-                <p className='text-xl lg:text-[24px] font-inter text-[#111111] '>Coverage by <Link href="https://www.arabnews.com/node/1956431/media" target="_blank" rel="nofollow noopener" className='text-[#1A3470] underline font-semibold'>Arab News</Link></p>
+                <p className='text-base lg:text-xl font-inter text-[#111111] '>Coverage by <Link href="https://www.arabnews.com/node/1956431/media" target="_blank" rel="nofollow noopener" className='text-[#1A3470] underline font-semibold'>Arab News</Link></p>
             </div>
         </div>
     )

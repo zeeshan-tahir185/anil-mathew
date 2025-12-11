@@ -73,8 +73,8 @@ const Essays = () => {
             </div>
 
             <div className="flex flex-col gap-6 lg:gap-8 items-center lg:items-start text-center lg:text-left w-full sm:w-[500px] xl:w-[31%] relative ">
-              <button className="lg:w-[264px] lg:h-[38px] uppercase font-inter text-sm cursor-pointer font-medium text-[#111111] lg:text-[#1A3470] lg:font-semibold py-[6px] absolute top-[13px] right-[13px] lg:top-[20px] lg:right-[20px] px-[18px] bg-[#E8DCCB] rounded-full">
-                Forbes Technology Council
+              <button className="lg:w-[180px] lg:h-[38px] uppercase font-inter text-sm cursor-pointer font-medium text-[#111111] lg:text-[#1A3470] lg:font-semibold py-[6px] absolute top-[13px] right-[13px] lg:top-[20px] lg:right-[20px] px-[18px] bg-[#E8DCCB] rounded-full">
+                TIMES OF INDIA
               </button>
               <Image
                 src="/images/article/article3.png"

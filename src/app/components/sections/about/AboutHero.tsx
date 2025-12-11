@@ -14,6 +14,7 @@ const AboutHero = () => {
         { name: "Press", path: "/press" },
         { name: "Speaking", path: "/speaking" },
         { name: "Ventures", path: "/ventures" },
+        { name: "Articles", path: "/articles" },
     ];
 
     return (
@@ -86,6 +87,9 @@ const AboutHero = () => {
                                 <li>
                                     <Link href="/ventures">Ventures</Link>
                                 </li>
+                                <li>
+                                    <Link href="/articles">Articles</Link>
+                                </li>
                             </ul>
                         </div>
 
@@ -104,7 +108,7 @@ const AboutHero = () => {
             </div>
             <div className="flex flex-col lg:flex-row justify-end px-4 md:px-12 main_padding_left gap-[20px] lg:gap-0">
                 <Image src="/images/about/about_mob.png" alt="img icon" width={370} height={527} className="w-full lg:hidden mt-[-40px]" />
-                <Image src="/images/about/about.png" alt="home hero" width={814} height={1038} className=" lg:w-[700px] xl:w-[700px] 2xl:w-[800px] z-10 absolute top-[9px] left-[10px] hidden lg:block" />
+                <Image src="/images/about/about.svg" alt="home hero" width={814} height={1038} className=" lg:w-[700px] xl:w-[700px] 2xl:w-[800px] z-10 absolute top-[9px] left-[10px] hidden lg:block" />
                 <div className="w-full lg:w-[30%] [@media(min-width:1130px)]:w-[35%] [@media(min-width:1250px)]:w-[42%] xl:w-[45%]! [@media(min-width:1350px)]:w-[50%]! lg:pt-[50px] about_main_section [@media(min-width:1550px)]:w-[55%]! flex flex-col gap-[20px] lg:gap-[100px] min-h-[500px] xl:min-h-[970px]">
                     <div className="flex flex-col items-start gap-[15px] lg:gap-[30px] relative">
                         <p className="font-inter text-base uppercase text-[#111111] lg:ml-[65px] order-2 lg:order-1 mt-4 lg:mt-0">I’m AN</p>

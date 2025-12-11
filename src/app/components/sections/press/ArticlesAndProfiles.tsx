@@ -14,19 +14,22 @@ const ArticlesAndProfiles = () => {
           Articles and profiles
         </h2>
         <div className="flex flex-col gap-6 w-full">
-          <div className="flex flex-col lg:flex-row gap-6 w-full">
-            <div className="min-h-[400px] w-full lg:w-[55%] 2xl:w-[726px] relative">
-              <Link href="https://www.reuters.com/markets/deals/data-intelligence-firm-near-go-public-via-1-billion-spac-deal-2022-05-19/">
-                <button className="font-inter text-sm lg:text-base cursor-pointer w-[165px] lg:w-[194px] h-[36px] lg:h-[46px] uppercase font-medium text-[#111111] py-[6px] absolute top-[20px] right-[20px] lg:top-[30px] lg:right-[30px] px-[12px] lg:px-[18px] bg-[#E8DCCB] rounded-full flex justify-center items-center gap-1 lg:gap-2">
-                  Read articles <MdKeyboardArrowRight className="text-2xl" />
-                </button>
-              </Link>
+          <div className="flex flex-col lg:flex-row gap-6 w-full justify-center">
+            <Link
+              href="https://www.reuters.com/markets/deals/data-intelligence-firm-near-go-public-via-1-billion-spac-deal-2022-05-19/"
+              className="min-h-[400px] md:min-h-full w-full lg:w-[55%] 2xl:w-[726px] relative"
+               target="_blank"
+              rel="nofollow noopener"
+            >
+              <button className="font-inter text-sm lg:text-base cursor-pointer w-[100px] lg:w-[110px] h-[36px] uppercase font-medium text-[#111111] absolute top-[20px] right-[20px] lg:top-[30px] lg:right-[30px] px-[12px] lg:px-[18px] bg-[#E8DCCB] rounded-full flex justify-center items-center gap-1 lg:gap-2">
+                View <MdKeyboardArrowRight className="text-2xl" />
+              </button>
               <Image
                 src="/images/press/article1.png"
                 width={780}
                 height={680}
                 alt="vision 1 image"
-                className="w-full z-10 "
+                className="w-full z-10 h-full"
               />
               <div className="flex flex-col items-start text-left gap-6 p-[25px] lg:p-[50px] absolute bottom-0 left-0 w-full">
                 <h2
@@ -40,19 +43,23 @@ const ArticlesAndProfiles = () => {
                   valuing the company at about $1 billion.{" "}
                 </p>
               </div>
-            </div>
-            <div className="min-h-[400px] w-full lg:w-[45%] 2xl:w-[580px] relative">
-               <Link href="https://techcrunch.com/2022/05/19/data-intelligence-startup-near-with-1-6b-anonymized-user-ids-lists-on-nasdaq-via-spac-at-a-1b-market-cap-raises-100m/" target="_blank" rel="nofollow noopener">
-                <button className="font-inter text-sm lg:text-base cursor-pointer w-[165px] lg:w-[194px] h-[36px] lg:h-[46px] uppercase font-medium text-[#111111] py-[6px] absolute top-[20px] right-[20px] lg:top-[30px] lg:right-[30px] px-[12px] lg:px-[18px] bg-[#E8DCCB] rounded-full flex justify-center items-center gap-1 lg:gap-2">
-                  Read articles <MdKeyboardArrowRight className="text-2xl" />
-                </button>
-              </Link>
+            </Link>
+
+            <Link
+              href="https://techcrunch.com/2022/05/19/data-intelligence-startup-near-with-1-6b-anonymized-user-ids-lists-on-nasdaq-via-spac-at-a-1b-market-cap-raises-100m/"
+              target="_blank"
+              rel="nofollow noopener"
+              className="min-h-[400px] md:min-h-full w-full lg:w-[45%] 2xl:w-[580px] relative"
+            >
+              <button className="font-inter text-sm lg:text-base cursor-pointer w-[100px] lg:w-[110px] h-[36px] uppercase font-medium text-[#111111] absolute top-[20px] right-[20px] lg:top-[30px] lg:right-[30px] px-[12px] lg:px-[18px] bg-[#E8DCCB] rounded-full flex justify-center items-center gap-1 lg:gap-2">
+                View <MdKeyboardArrowRight className="text-2xl" />
+              </button>
               <Image
                 src="/images/press/article2.png"
                 width={780}
                 height={680}
                 alt="vision 1 image"
-                className="w-full z-10 "
+                className="w-full z-10 h-full"
               />
               <div className="flex flex-col items-start text-left gap-6 p-[25px] lg:p-[50px] absolute bottom-0 left-0 w-full">
                 <h2
@@ -66,21 +73,24 @@ const ArticlesAndProfiles = () => {
                   at roughly a $1 billion valuation.
                 </p>
               </div>
-            </div>
+            </Link>
           </div>
-          <div className="flex flex-col lg:flex-row gap-6 w-full">
-            <div className="min-h-[400px] w-full lg:w-[45%] 2xl:w-[580px] relative">
-               <Link href="https://www.techinasia.com/indias-30-highest-funded-tech-startups-2014" target="_blank" rel="nofollow noopener">
-                <button className="font-inter text-sm lg:text-base cursor-pointer w-[165px] lg:w-[194px] h-[36px] lg:h-[46px] uppercase font-medium text-[#111111] py-[6px] absolute top-[20px] right-[20px] lg:top-[30px] lg:right-[30px] px-[12px] lg:px-[18px] bg-[#E8DCCB] rounded-full flex justify-center items-center gap-1 lg:gap-2">
-                  Read articles <MdKeyboardArrowRight className="text-2xl" />
-                </button>
-              </Link>
+          <div className="flex flex-col lg:flex-row gap-6 w-full justify-center">
+            <Link
+              href="https://www.techinasia.com/indias-30-highest-funded-tech-startups-2014"
+              target="_blank"
+              rel="nofollow noopener"
+              className="min-h-[400px] md:min-h-full w-full lg:w-[45%] 2xl:w-[580px] relative"
+            >
+              <button className="font-inter text-sm lg:text-base cursor-pointer w-[100px] lg:w-[110px] h-[36px] uppercase font-medium text-[#111111] absolute top-[20px] right-[20px] lg:top-[30px] lg:right-[30px] px-[12px] lg:px-[18px] bg-[#E8DCCB] rounded-full flex justify-center items-center gap-1 lg:gap-2">
+                View <MdKeyboardArrowRight className="text-2xl" />
+              </button>
               <Image
                 src="/images/press/article3.png"
                 width={780}
                 height={680}
                 alt="vision 1 image"
-                className="w-full z-10 "
+                className="w-full z-10 h-full"
               />
               <div className="flex flex-col items-start text-left gap-6 p-[25px] lg:p-[50px] absolute bottom-0 left-0 w-full">
                 <h2
@@ -94,19 +104,23 @@ const ArticlesAndProfiles = () => {
                   startups circa 2014.
                 </p>
               </div>
-            </div>
-            <div className="min-h-[400px] w-full lg:w-[55%] 2xl:w-[726px] relative">
-               <Link href="https://www.businesstimes.com.sg/startups-tech/technology/spore-mobile-ad-startup-raises-record-series-b" target="_blank" rel="nofollow noopener">
-                <button className="font-inter text-sm lg:text-base cursor-pointer w-[165px] lg:w-[194px] h-[36px] lg:h-[46px] uppercase font-medium text-[#111111] py-[6px] absolute top-[20px] right-[20px] lg:top-[30px] lg:right-[30px] px-[12px] lg:px-[18px] bg-[#E8DCCB] rounded-full flex justify-center items-center gap-1 lg:gap-2">
-                  Read articles <MdKeyboardArrowRight className="text-2xl" />
-                </button>
-              </Link>
+            </Link>
+
+            <Link
+              href="https://www.businesstimes.com.sg/startups-tech/technology/spore-mobile-ad-startup-raises-record-series-b"
+              target="_blank"
+              rel="nofollow noopener"
+              className="min-h-[400px] md:min-h-full w-full lg:w-[55%] 2xl:w-[726px] relative"
+            >
+              <button className="font-inter text-sm lg:text-base cursor-pointer w-[100px] lg:w-[110px] h-[36px] uppercase font-medium text-[#111111] absolute top-[20px] right-[20px] lg:top-[30px] lg:right-[30px] px-[12px] lg:px-[18px] bg-[#E8DCCB] rounded-full flex justify-center items-center gap-1 lg:gap-2">
+                View <MdKeyboardArrowRight className="text-2xl" />
+              </button>
               <Image
                 src="/images/press/article4.png"
                 width={780}
                 height={680}
                 alt="vision 1 image"
-                className="w-full z-10 "
+                className="w-full z-10 h-full"
               />
               <div className="flex flex-col items-start text-left gap-6 p-[25px] lg:p-[50px] absolute bottom-0 left-0 w-full">
                 <h2
@@ -120,22 +134,25 @@ const ArticlesAndProfiles = () => {
                   record round in Singapore at the time.
                 </p>
               </div>
-            </div>
+            </Link>
           </div>
 
-          <div className="flex flex-col lg:flex-row gap-6 w-full">
-            <div className="min-h-[400px] w-full lg:w-[55%] 2xl:w-[726px] relative">
-              <Link href="https://www.arabnews.com/node/1956431/media" target="_blank" rel="nofollow noopener">
-                <button className="font-inter text-sm lg:text-base cursor-pointer w-[165px] lg:w-[194px] h-[36px] lg:h-[46px] uppercase font-medium text-[#111111] py-[6px] absolute top-[20px] right-[20px] lg:top-[30px] lg:right-[30px] px-[12px] lg:px-[18px] bg-[#E8DCCB] rounded-full flex justify-center items-center gap-1 lg:gap-2">
-                  Read articles <MdKeyboardArrowRight className="text-2xl" />
-                </button>
-              </Link>
+          <div className="flex flex-col lg:flex-row gap-6 w-full justify-center">
+            <Link
+              href="https://www.arabnews.com/node/1956431/media"
+              target="_blank"
+              rel="nofollow noopener"
+              className="min-h-[400px] md:min-h-full w-full lg:w-[55%] 2xl:w-[726px] relative"
+            >
+              <button className="font-inter text-sm lg:text-base cursor-pointer w-[100px] lg:w-[110px] h-[36px] uppercase font-medium text-[#111111] absolute top-[20px] right-[20px] lg:top-[30px] lg:right-[30px] px-[12px] lg:px-[18px] bg-[#E8DCCB] rounded-full flex justify-center items-center gap-1 lg:gap-2">
+                View <MdKeyboardArrowRight className="text-2xl" />
+              </button>
               <Image
                 src="/images/press/article5.png"
                 width={780}
                 height={680}
                 alt="vision 1 image"
-                className="w-full z-10 "
+                className="w-full z-10 h-full"
               />
               <div className="flex flex-col items-start text-left gap-6 p-[25px] lg:p-[50px] absolute bottom-0 left-0 w-full">
                 <h2
@@ -149,19 +166,23 @@ const ArticlesAndProfiles = () => {
                   deal valuing the company at over $25 million.
                 </p>
               </div>
-            </div>
-            <div className="min-h-[400px] w-full lg:w-[45%] 2xl:w-[580px] relative">
-              <Link href="https://techcrunch.com/2020/11/19/near-acquires-teemo/" target="_blank" rel="nofollow noopener">
-                <button className="font-inter text-sm lg:text-base cursor-pointer w-[165px] lg:w-[194px] h-[36px] lg:h-[46px] uppercase font-medium text-[#111111] py-[6px] absolute top-[20px] right-[20px] lg:top-[30px] lg:right-[30px] px-[12px] lg:px-[18px] bg-[#E8DCCB] rounded-full flex justify-center items-center gap-1 lg:gap-2">
-                  Read articles <MdKeyboardArrowRight className="text-2xl" />
-                </button>
-              </Link>
+            </Link>
+
+            <Link
+              href="https://techcrunch.com/2020/11/19/near-acquires-teemo/"
+              target="_blank"
+              rel="nofollow noopener"
+              className="min-h-[400px] md:min-h-full w-full lg:w-[45%] 2xl:w-[580px] relative"
+            >
+              <button className="font-inter text-sm lg:text-base cursor-pointer w-[100px] lg:w-[110px] h-[36px] uppercase font-medium text-[#111111] absolute top-[20px] right-[20px] lg:top-[30px] lg:right-[30px] px-[12px] lg:px-[18px] bg-[#E8DCCB] rounded-full flex justify-center items-center gap-1 lg:gap-2">
+                View <MdKeyboardArrowRight className="text-2xl" />
+              </button>
               <Image
                 src="/images/press/article6.png"
                 width={780}
                 height={680}
                 alt="vision 1 image"
-                className="w-full z-10 "
+                className="w-full z-10 h-full"
               />
               <div className="flex flex-col items-start text-left gap-6 p-[25px] lg:p-[50px] absolute bottom-0 left-0 w-full">
                 <h2
@@ -175,22 +196,25 @@ const ArticlesAndProfiles = () => {
                   capabilities.
                 </p>
               </div>
-            </div>
+            </Link>
           </div>
 
-          <div className="flex flex-col lg:flex-row gap-6 w-full">
-            <div className="min-h-[400px] w-full lg:w-[55%] 2xl:w-[726px] relative">
-              <Link href="https://www.entrepreneur.com/en-in/technology/the-big-daddy-of-data/353257" target="_blank" rel="nofollow noopener">
-                <button className="font-inter text-sm lg:text-base cursor-pointer w-[165px] lg:w-[194px] h-[36px] lg:h-[46px] uppercase font-medium text-[#111111] py-[6px] absolute top-[20px] right-[20px] lg:top-[30px] lg:right-[30px] px-[12px] lg:px-[18px] bg-[#E8DCCB] rounded-full flex justify-center items-center gap-1 lg:gap-2">
-                  Read articles <MdKeyboardArrowRight className="text-2xl" />
-                </button>
-              </Link>
+          <div className="flex flex-col lg:flex-row gap-6 w-full justify-center">
+            <Link
+              href="https://www.entrepreneur.com/en-in/technology/the-big-daddy-of-data/353257"
+              target="_blank"
+              rel="nofollow noopener"
+              className="min-h-[400px] md:min-h-full w-full lg:w-[55%] 2xl:w-[726px] relative"
+            >
+              <button className="font-inter text-sm lg:text-base cursor-pointer w-[100px] lg:w-[110px] h-[36px] uppercase font-medium text-[#111111] absolute top-[20px] right-[20px] lg:top-[30px] lg:right-[30px] px-[12px] lg:px-[18px] bg-[#E8DCCB] rounded-full flex justify-center items-center gap-1 lg:gap-2">
+                View <MdKeyboardArrowRight className="text-2xl" />
+              </button>
               <Image
                 src="/images/press/article7.png"
                 width={780}
                 height={680}
                 alt="vision 1 image"
-                className="w-full z-10 "
+                className="w-full z-10 h-full"
               />
               <div className="flex flex-col items-start text-left gap-6 p-[25px] lg:p-[50px] absolute bottom-0 left-0 w-full">
                 <h2
@@ -204,19 +228,23 @@ const ArticlesAndProfiles = () => {
                   category building.
                 </p>
               </div>
-            </div>
-            <div className="min-h-[400px] w-full lg:w-[45%] 2xl:w-[580px] relative">
-              <Link href="https://yourstory.com/2020/07/data-analytics-startup-near-adtech-pivot-saas-singapore" target="_blank" rel="nofollow noopener">
-                <button className="font-inter text-sm lg:text-base cursor-pointer w-[165px] lg:w-[194px] h-[36px] lg:h-[46px] uppercase font-medium text-[#111111] py-[6px] absolute top-[20px] right-[20px] lg:top-[30px] lg:right-[30px] px-[12px] lg:px-[18px] bg-[#E8DCCB] rounded-full flex justify-center items-center gap-1 lg:gap-2">
-                  Read articles <MdKeyboardArrowRight className="text-2xl" />
-                </button>
-              </Link>
+            </Link>
+
+            <Link
+              href="https://yourstory.com/2020/07/data-analytics-startup-near-adtech-pivot-saas-singapore"
+              target="_blank"
+              rel="nofollow noopener"
+              className="min-h-[400px] md:min-h-full w-full lg:w-[45%] 2xl:w-[580px] relative"
+            >
+              <button className="font-inter text-sm lg:text-base cursor-pointer w-[100px] lg:w-[110px] h-[36px] uppercase font-medium text-[#111111] absolute top-[20px] right-[20px] lg:top-[30px] lg:right-[30px] px-[12px] lg:px-[18px] bg-[#E8DCCB] rounded-full flex justify-center items-center gap-1 lg:gap-2">
+                View <MdKeyboardArrowRight className="text-2xl" />
+              </button>
               <Image
                 src="/images/press/article8.png"
                 width={780}
                 height={680}
                 alt="vision 1 image"
-                className="w-full z-10 "
+                className="w-full z-10 h-full"
               />
               <div className="flex flex-col items-start text-left gap-6 p-[25px] lg:p-[50px] absolute bottom-0 left-0 w-full">
                 <h2
@@ -230,7 +258,7 @@ const ArticlesAndProfiles = () => {
                   scaling across regions.
                 </p>
               </div>
-            </div>
+            </Link>
           </div>
         </div>
       </div>

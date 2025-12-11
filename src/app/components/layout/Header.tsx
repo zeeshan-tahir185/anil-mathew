@@ -14,6 +14,7 @@ const Header = () => {
     { name: "Press", path: "/press" },
     { name: "Speaking", path: "/speaking" },
     { name: "Ventures", path: "/ventures" },
+    { name: "Articles", path: "/articles" },
   ];
   return (
     <>
@@ -80,9 +81,7 @@ const Header = () => {
             </p> */}
 
             <ul className="flex flex-col gap-4 md:gap-8 text-[25px] md:text-[36px] font-charter text-[#E8DCCB]">
-              <li>
-                <Link href="/">Home</Link>
-              </li>
+              
               <li>
                 <Link href="/about-anil-mathews">About</Link>
               </li>
@@ -94,6 +93,9 @@ const Header = () => {
               </li>
               <li>
                 <Link href="/ventures">Ventures</Link>
+              </li>
+              <li>
+                <Link href="/articles">Articles</Link>
               </li>
             </ul>
           </div>

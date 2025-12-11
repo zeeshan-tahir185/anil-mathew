@@ -137,9 +137,9 @@ const HomeHero = () => {
             <p className="font-inter text-sm xl:text-base md:leading-[20px] uppercase w-[calc(100%-37px)]">
               He founded Near Intelligence and led it from a small data
               experiment to a{" "}
-              <span className="font-semibold text-[#1A3470]">
+              <Link target="_blank" rel="noopener" href="https://techcrunch.com/2022/05/19/data-intelligence-startup-near-with-1-6b-anonymized-user-ids-lists-on-nasdaq-via-spac-at-a-1b-market-cap-raises-100m/" className="font-semibold text-[#1A3470] hover:underline">
                 billion-dollar, Nasdaq-listed enterprise
-              </span>{" "}
+              </Link>{" "}
               operating across four continents.{" "}
             </p>
           </div>

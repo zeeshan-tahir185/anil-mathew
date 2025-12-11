@@ -92,14 +92,14 @@ const slides = [
 
 export default function Media() {
   return (
-    <div className="py-[60px] lg:py-[150px] gap-6 lg:gap-9 flex flex-col items-center max-w-[1920px] mx-auto">
+    <div className="py-[60px] lg:py-[100px] 2xl:py-[150px] gap-6 lg:gap-9 flex flex-col items-center max-w-[1920px] mx-auto">
       {/* Heading */}
       <div className="flex gap-12 items-center mx-auto ">
         <h2 className=" font-charter text-[36px] lg:text-[64px] text-[#111111] leading-[36px] lg:leading-[64px] -tracking-[2px]">
           In the media
         </h2>
         <Link href="/press" className="hidden lg:flex">
-          <button className="items-center cursor-pointer w-full hidden lg:flex lg:w-[305px] bg-[#E8DCCB] text-[#1A3470] border border-[#E8DCCB26] h-[46px] rounded-full flex items-center justify-center gap-1 uppercase text-sm lg:text-base font-inter">
+          <button className="items-center cursor-pointer w-full hidden lg:flex lg:w-[335px] bg-[#E8DCCB] text-[#1A3470] border border-[#E8DCCB26] h-[46px] rounded-full flex items-center justify-center gap-1 uppercase text-sm lg:text-base font-inter">
             See all press and interviews{" "}
             <MdKeyboardArrowRight className="text-2xl" />
           </button>
@@ -162,7 +162,7 @@ export default function Media() {
           </SwiperSlide>
         ))}
       </Swiper>
-      <Link href="/press">
+      <Link href="/press" className="lg:hidden">
         <button className="cursor-pointer w-[330px] lg:hidden lg:w-[305px] bg-[#E8DCCB] text-[#1A3470] border border-[#E8DCCB26] h-[46px] rounded-full flex items-center justify-center gap-1 uppercase text-sm lg:text-base font-inter">
           See all press and interviews{" "}
           <MdKeyboardArrowRight className="text-2xl" />
