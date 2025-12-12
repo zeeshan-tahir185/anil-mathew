@@ -42,7 +42,7 @@ const page = () => {
       <Podcast />
       <ArticlesAndProfiles />
       <OfficialCitations />
-      <Media />
+      {/* <Media /> */}
       <Footer />
     </div>
   )

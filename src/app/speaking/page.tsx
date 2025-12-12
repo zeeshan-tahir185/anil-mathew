@@ -5,6 +5,7 @@ import SpeakingHero from '../components/sections/speaking/SpeakingHero'
 import TalkThemes from '../components/sections/speaking/TalkThemes'
 import ClipsAndFeatures from '../components/sections/speaking/ClipsAndFeatures'
 import FormateAndStyle from '../components/sections/speaking/FormateAndStyle'
+import Media from '../components/sections/home/Media'
 export const metadata = {
   title: "Speaking | Anil Mathews",
   description:
@@ -41,6 +42,7 @@ const page = () => {
       <TalkThemes />
       <ClipsAndFeatures />
       <FormateAndStyle />
+      <Media />
       <Footer />
     </div>
   )

@@ -152,25 +152,19 @@ const HomeHero = () => {
               Hello, I’m 👋
             </p>
             <div>
-              <div className="flex items-start gap-5 2xl:gap-0">
+              <div className="flex items-start gap-5 2xl:gap-0 relative">
                 <h1
                   className="font-charter uppercase main_anil_mathew_heading text-[#111111]"
                   style={{ letterSpacing: "-7px" }}
                 >
-                  ANIL
+                  ANIL Mathews
                 </h1>
-                <p className="font-inter text-sm lg:text-[10px] xl:text-sm 2xl:text-base text-[#111111] uppercase mt-2 2xl:mt-1">
+                <p className="font-inter custom_text text-sm lg:text-[10px] xl:text-sm 2xl:text-base text-[#111111] uppercase absolute left-[40%] lg:left-[45%] lg:top-[10px] xl:left-[42%]">
                   I build where
                   <br /> technology amplifies
                   <br /> human possibility.
                 </p>
               </div>
-              <h1
-                className="font-charter main_anil_mathew_heading uppercase text-[#111111]"
-                style={{ letterSpacing: "-7px" }}
-              >
-                Mathews
-              </h1>
             </div>
             <p
               className="font-inter text-base lg:text-xl text-[#111111] opacity-65"
