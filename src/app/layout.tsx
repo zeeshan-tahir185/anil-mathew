@@ -47,7 +47,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/favicon-new.ico" sizes="any" />
         <link rel="manifest" href="/manifest.json" />
       </head>
       <body className={`${inter.variable} ${charter.variable} antialiased`}>
