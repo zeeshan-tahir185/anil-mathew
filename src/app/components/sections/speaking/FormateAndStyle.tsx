@@ -5,7 +5,7 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 
 const FormateAndStyle = () => {
   return (
-    <div className="mb-[50px] lg:mb-[100px]">
+    <div className="">
       <div className="bg-[#111111] z-10!">
         <div className="belief_bg_formate z-10!">
           <div className="mx-auto z-10! py-[60px] px-5 md:px-[50px] xl:px-[100px] 2xl:px-[130px] vision_section_padding justify-center w-full flex flex-col lg:flex-row gap-[32px] lg:gap-[14px]">
