@@ -19,6 +19,9 @@
 .font-charter {
   font-family: var(--font-charter), serif;
 }
+.font-degular{
+  font-family: var(--font-degular), serif;
+}
 .mobile_menu_bg {
   background: url("/images/header/header_bg.png");
   background-repeat: no-repeat;

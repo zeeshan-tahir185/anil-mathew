@@ -17,6 +17,16 @@ export const charter = localFont({
   ],
   variable: "--font-charter",
 });
+export const degular = localFont({
+  src: [
+    {
+      path: "../../public/fonts/degular.otf",
+      weight: "400",
+      style: "normal",
+    },
+  ],
+  variable: "--font-degular",
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -49,7 +59,7 @@ export default function RootLayout({
       <head>
         <link rel="manifest" href="/manifest.json" />
       </head>
-      <body className={`${inter.variable} ${charter.variable} antialiased`}>
+      <body className={`${inter.variable} ${charter.variable} ${degular.variable} antialiased`}>
         {children}
       </body>
     </html>

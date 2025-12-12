@@ -82,7 +82,7 @@ const Footer = () => {
             Alphabyte{" "}
           </Link>
         </p>
-        <Image src="/images/footer.png" width={168} height={26} alt="footer text" className="mt-[50px] lg:mt-[30px] md:mt-[40px] mb-2" />
+          <p  className="mt-[50px] lg:mt-[30px] md:mt-[40px] mb-2 text-lg text-[#F7F4F1] font-degular opacity-65">© 2026 Anil Mathews</p>
       </div>
     </div>
   );
