@@ -8,8 +8,8 @@
       "type": "image/png"
     },
     {
-      "src": "/web-app-manifest-375x375-new.png",
-      "sizes": "375x375",
+      "src": "/web-app-manifest-512x512-new.png",
+      "sizes": "512x512",
       "type": "image/png"
     }
   ],
