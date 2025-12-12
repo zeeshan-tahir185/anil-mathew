@@ -127,7 +127,7 @@ export default function Media() {
             key={i}
             className="shrink-0 px-1 lg:px-2 basis-[80%] md:basis-[60%] lg:basis-[45%]"
           >
-            <Link href={slide.link} target="_blank">
+            <Link href={slide.link} >
             <div className="relative w-full border border-[#E8DCCB26] overflow-hidden rounded-[14px] group h-[405px] lg:h-auto">
               <Image
                 src={slide.icon}
@@ -169,6 +169,16 @@ export default function Media() {
           <MdKeyboardArrowRight className="text-2xl" />
         </button>
       </Link>
+      <style jsx global>{`
+  .swiper-slide {
+    filter: saturate(0);
+    transition: filter 0.4s ease;
+  }
+
+  .swiper-slide-active {
+    filter: saturate(1) !important;
+  }
+`}</style>
     </div>
   );
 }
