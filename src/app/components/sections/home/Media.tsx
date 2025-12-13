@@ -3,11 +3,9 @@ import React from "react";
 import Image from "next/image";
 import { MdArrowOutward, MdKeyboardArrowRight } from "react-icons/md";
 
-// Swiper React Components
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/autoplay";
 import Link from "next/link";
@@ -31,7 +29,6 @@ const slides = [
     para: "Discussion on enterprise software and disciplined growth.",
     link: "/interview/absolute-return-231",
   },
-  
   {
     img: "/images/home/media4.png",
     icon: "/images/home/media_logo4.png",
@@ -68,7 +65,6 @@ const slides = [
     para: "Discussion on enterprise software and disciplined growth.",
     link: "/interview/absolute-return-231",
   },
-  
   {
     img: "/images/home/media4.png",
     icon: "/images/home/media_logo4.png",
@@ -87,27 +83,25 @@ const slides = [
     para: "Live interview with Nicole Petallides on Near’s trading debut.",
     link: "/interview/schwab-trading-debut",
   },
-  
-  
 ];
 
 export default function Media() {
   return (
     <div className="py-[60px] lg:py-[100px] xl:py-[150px] 2xl:py-[150px] gap-6 lg:gap-9 flex flex-col items-center max-w-[1920px] mx-auto">
-      {/* Heading */}
       <div className="flex gap-12 items-center mx-auto ">
         <h2 className=" font-charter text-[36px] lg:text-[64px] text-[#111111] leading-[36px] lg:leading-[64px] -tracking-[2px]">
           In the media
         </h2>
-        <Link href="/press" className="hidden lg:flex">
-          <button className="items-center cursor-pointer w-full hidden lg:flex lg:w-[330px] bg-[#E8DCCB] text-[#1A3470] border border-[#E8DCCB26] h-[46px] rounded-full flex items-center justify-center gap-1 uppercase text-sm lg:text-base font-inter">
-            SEE ALL Press and INTERVIEWS 
-            <MdKeyboardArrowRight className="text-2xl" />
-          </button>
+
+        <Link
+          href="/press"
+          className="hidden lg:flex items-center cursor-pointer w-full lg:w-[330px] bg-[#E8DCCB] text-[#1A3470] border border-[#E8DCCB26] h-[46px] rounded-full justify-center gap-1 uppercase text-sm lg:text-base font-inter"
+        >
+          SEE ALL Press and INTERVIEWS
+          <MdKeyboardArrowRight className="text-2xl" />
         </Link>
       </div>
 
-      {/* Swiper Carousel */}
       <Swiper
         modules={[Autoplay]}
         loop={true}
@@ -120,65 +114,69 @@ export default function Media() {
         spaceBetween={0}
         slidesPerView="auto"
         centeredSlides
-        className="w-full overflow-hidden lg:pl-[30%]! pr-[-20%]!"
+        className="w-full overflow-hidden lg:!pl-[30%]"
       >
         {slides.map((slide, i) => (
           <SwiperSlide
             key={i}
             className="shrink-0 px-1 lg:px-2 basis-[80%] md:basis-[60%] lg:basis-[45%]"
           >
-            <Link href={slide.link} >
-            <div className="relative w-full border border-[#E8DCCB26] overflow-hidden rounded-[14px] group h-[405px] lg:h-auto">
-              <Image
-                src={slide.icon}
-                width={slide.width}
-                height={slide.height}
-                alt="media"
-                className={`absolute h-[25px] md:h-[50px] top-[14px] right-[14px] w-auto z-10`}
-              />
-              <Image
-                src={slide.img}
-                width={623}
-                height={680}
-                alt="media"
-                className="w-full h-full rounded-[14px] object-cover object-center z-10 transition-all duration-500  group-hover:saturate-0"
-              />
+            <Link href={slide.link} className="block">
+              <div className="relative w-full border border-[#E8DCCB26] overflow-hidden rounded-[14px] group h-[405px] lg:h-auto">
+                <Image
+                  src={slide.icon}
+                  width={slide.width}
+                  height={slide.height}
+                  alt="media"
+                  className="absolute h-[25px] md:h-[50px] top-[14px] right-[14px] w-auto z-10"
+                />
+                <Image
+                  src={slide.img}
+                  width={623}
+                  height={680}
+                  alt="media"
+                  className="w-full h-full rounded-[14px] object-cover object-center z-10 transition-all duration-500 group-hover:saturate-0"
+                />
 
-              <div className="flex flex-col absolute bottom-0 z-20 p-5 lg:p-10">
-                <p className="font-charter uppercase text-[36px] lg:text-[40px] xl:text-[45px] 2xl:text-[55px] [@media(min-width:1700px)]:text-[64px] text-[#F7F4F1] font-semibold leading-[100%]">
-                  {slide.text}
-                </p>
-                <div className="flex flex-col lg:flex-row gap-3 lg:items-end">
-                  <p className="text-xs lg:text-sm text-[#E8DCCB] uppercase">
-                    {slide.para}
+                <div className="flex flex-col absolute bottom-0 z-20 p-5 lg:p-10">
+                  <p className="font-charter uppercase text-[36px] lg:text-[40px] xl:text-[45px] 2xl:text-[55px] [@media(min-width:1700px)]:text-[64px] text-[#F7F4F1] font-semibold leading-[100%]">
+                    {slide.text}
                   </p>
-                  
-                    <button className="cursor-pointer text-base uppercase text-[#F7F4F1] font-medium flex items-center gap-3">
+
+                  <div className="flex flex-col lg:flex-row gap-3 lg:items-end">
+                    <p className="text-xs lg:text-sm text-[#E8DCCB] uppercase">
+                      {slide.para}
+                    </p>
+
+                    <span className="text-base uppercase text-[#F7F4F1] font-medium flex items-center gap-3">
                       Watch <MdArrowOutward />
-                    </button>
+                    </span>
+                  </div>
                 </div>
               </div>
-            </div>
             </Link>
           </SwiperSlide>
         ))}
       </Swiper>
-      <Link href="/press" className="lg:hidden">
-        <button className="cursor-pointer w-[330px] lg:hidden  bg-[#E8DCCB] text-[#1A3470] border border-[#E8DCCB26] h-[46px] rounded-full flex items-center justify-center gap-1 uppercase text-sm lg:text-base font-inter">
-         SEE ALL Press and INTERVIEWS 
-          <MdKeyboardArrowRight className="text-2xl" />
-        </button>
-      </Link>
-      <style jsx global>{`
-  .swiper-slide {
-    filter: saturate(0);
-    transition: filter 0.4s ease;
-  }
 
-  .swiper-slide-active {
-    filter: saturate(1) !important;
-  }
-`}</style>
+      <Link
+        href="/press"
+        className="lg:hidden cursor-pointer w-[330px] bg-[#E8DCCB] text-[#1A3470] border border-[#E8DCCB26] h-[46px] rounded-full flex items-center justify-center gap-1 uppercase text-sm lg:text-base font-inter"
+      >
+        SEE ALL Press and INTERVIEWS
+        <MdKeyboardArrowRight className="text-2xl" />
+      </Link>
+
+      <style jsx global>{`
+        .swiper-slide {
+          filter: saturate(0);
+          transition: filter 0.4s ease;
+        }
+
+        .swiper-slide-active {
+          filter: saturate(1) !important;
+        }
+      `}</style>
     </div>
   );
 }
