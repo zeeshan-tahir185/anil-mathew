@@ -150,7 +150,7 @@ const Essays = () => {
             className="font-charter leading-[36px] lg:leading-[64px] text-[36px] lg:text-[64px] text-[#E8DCCB]"
             style={{ letterSpacing: "-2px" }}
           >
-            LinkedIn Essays
+            LinkedIn essays
           </h2>
           <div className="flex flex-col lg:flex-row flex-wrap gap-6 lg:gap-[25px] w-full items-center lg:items-start justify-center">
             <div className="flex flex-col gap-6 lg:gap-8 items-center lg:items-start text-center lg:text-left w-full sm:w-[500px] xl:w-[31%] relative ">
