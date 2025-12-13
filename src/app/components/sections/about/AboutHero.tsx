@@ -110,16 +110,16 @@ const AboutHero = () => {
             </div>
 
             <div className=" flex flex-col gap-4 w-full px-[39px]">
-              <Link href="/ventures">
-                <button className="w-full bg-[#1A3470] text-[#E8DCCB] h-[50px] backdrop-blur-[25px] flex justify-center items-center gap-2 rounded-full uppercase text-sm font-inter font-medium ">
-                  Explore Ventures <MdKeyboardArrowRight className="text-2xl" />
-                </button>
-              </Link>
-              <Link href="/speaking">
-                <button className="w-full bg-[#E8DCCB12] backdrop-blur-[25px] border border-[#11141826] flex justify-center items-center gap-2 text-[#E8DCCB] h-[50px] rounded-full uppercase text-sm font-inter font-medium ">
-                  BOOK A TALK <MdKeyboardArrowRight className="text-2xl" />
-                </button>
-              </Link>
+<Link
+  href="/ventures"
+  className="w-full bg-[#1A3470] text-[#E8DCCB] h-[50px] backdrop-blur-[25px] flex justify-center items-center gap-2 rounded-full uppercase text-sm font-inter font-medium ">
+  Explore Ventures <MdKeyboardArrowRight className="text-2xl" />
+</Link>
+<Link
+  href="/speaking"
+  className="w-full bg-[#E8DCCB12] backdrop-blur-[25px] border border-[#11141826] flex justify-center items-center gap-2 text-[#E8DCCB] h-[50px] rounded-full uppercase text-sm font-inter font-medium ">
+  BOOK A TALK <MdKeyboardArrowRight className="text-2xl" />
+</Link>
             </div>
           </div>
         </div>
@@ -175,16 +175,14 @@ const AboutHero = () => {
               in focused software products that give clarity, speed, and
               precision to ambitious teams everywhere.
             </p>
-            <Link
-              href="https://www.alphabyte.com/"
-              target="_blank"
-              rel="noopener"
-            >
-              <button className="bg-transparent mt-[-15px] lg:mt-0 mb-[50px] lg:mb-0 flex items-center gap-2 text-[#1A3470] h-[46px] rounded-full uppercase text-sm lg:text-base font-inter font-semibold ">
-                Visit Alphabyte Ventures{" "}
-                <MdKeyboardArrowRight className="text-2xl" />
-              </button>
-            </Link>
+<Link
+  href="https://www.alphabyte.com/"
+  target="_blank"
+  rel="noopener"
+  className="bg-transparent mt-[-15px] lg:mt-0 mb-[50px] lg:mb-0 flex items-center gap-2 text-[#1A3470] h-[46px] rounded-full uppercase text-sm lg:text-base font-inter font-semibold ">
+  Visit Alphabyte Ventures{" "}
+  <MdKeyboardArrowRight className="text-2xl" />
+</Link>
           </div>
         </div>
       </div>
