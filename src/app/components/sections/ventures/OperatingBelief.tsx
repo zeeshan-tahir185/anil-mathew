@@ -11,7 +11,7 @@ const OperatingBelief = () => {
             className="font-charter  leading-[100%] text-[36px] lg:text-[45px] 2xl:text-[64px] text-[#E8DCCB]"
             style={{ letterSpacing: "-2px" }}
           >
-            Operating Belief
+            Operating belief
           </h2>
           <p className="text-[#F7F4F1] opacity-65 font-inter text-base lg:text-xl lg:mb-[10px]">
             Big outcomes start with small, repeatable wins. Every Alphabyte
