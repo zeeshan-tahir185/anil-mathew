@@ -9,8 +9,8 @@ const SpeakingHero = () => {
         <p className='text-[#111111] absolute bottom-0 xl:bottom-[10px] [@media(min-width:1400px)]:bottom-[30px] 2xl:bottom-[15px] para_custom_bottom hidden lg:block w-full lg:w-[600px] xl:w-[700px] [@media(min-width:1400px)]:w-[800px] 2xl:w-[750px]! z-30 opacity-65 font-inter text-base lg:text-[17px] '>Every talk comes from firsthand experience: building products, leading teams across continents,
           and steering a company from idea to a Nasdaq listing.
           Audiences range from early founders to global teams. The goal is the same each time: help people move from thinking to building.</p>
-        <Image src="/images/speaking/hero.png" width={1594} height={840} alt='speaking imaage' className=' hidden lg:block z-10' />
-        <Image src="/images/speaking/hero_mob.png" width={372} height={466} alt='speaking imaage' className='w-full lg:hidden z-10' />
+        <Image src="/images/speaking/hero.png" width={1594} height={840} alt='Anil Mathews speaking about execution' className=' hidden lg:block z-10' />
+        <Image src="/images/speaking/hero_mob.png" width={372} height={466} alt='Anil Mathews speaking about execution' className='w-full lg:hidden z-10' />
       </div>
        <p className='text-[#111111] mt-4 lg:hidden w-full lg:w-[600px] xl:w-[700px] 2xl:w-[935px] z-50 opacity-65 font-inter text-base lg:text-xl'>Every talk comes from firsthand experience: building products, leading teams across continents,
           and steering a company from idea to a Nasdaq listing.
