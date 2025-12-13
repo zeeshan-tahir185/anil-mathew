@@ -74,7 +74,7 @@ const Building = () => {
           src="/images/about/building2.png"
           width={653}
           height={531}
-          alt="building image"
+          alt="Anil Mathews, author of The Start Switch"
           className="w-full lg:w-[500px] xl:w-[653px]"
         />
       </div>

@@ -15,7 +15,7 @@ const Idea = () => {
                 <h2 className='font-charter text-[36px] lg:text-[64px] text-[#E8DCCB] leading-[100%]' style={{ letterSpacing: "-2px" }}>Milestones</h2>
                 <div className='w-full flex flex-wrap lg:flex-nowrap gap-[10px] lg:gap-[27px]'>
                     <div className='bg-[#FFFFFF03] w-[48%] sm:w-auto px-[20px] lg:max-w-[175px] py-[30px] min-h-[207px] lg:min-h-[300px] 2xl:min-h-[376px] 2xl:max-h-[376px] flex flex-col justify-between border border-[#E8DCCB26] backdrop-blur-xl rounded-[14px] lg:rounded-[24px]'>
-                        <p className='text-[#E8DCCB] font-inter text-sm2xlg:text-base uppercase'>Companies founded</p>
+                        <p className='text-[#E8DCCB] font-inter text-sm 2xl:text-base uppercase'>Companies founded</p>
                         <p className='font-charter font-black text-[36px] 2xl:text-[64px] uppercase text-[#E8DCCB]'>4</p>
                     </div>
                     <div className='bg-[#FFFFFF03] w-[48%] sm:w-auto px-[20px] lg:max-w-[175px] py-[30px] min-h-[207px] lg:min-h-[300px] 2xl:min-h-[376px] 2xl:max-h-[376px] flex flex-col justify-between border border-[#E8DCCB26] backdrop-blur-xl rounded-[14px] lg:rounded-[24px]'>

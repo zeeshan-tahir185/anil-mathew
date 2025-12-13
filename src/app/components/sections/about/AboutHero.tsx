@@ -127,7 +127,7 @@ const AboutHero = () => {
       <div className="flex flex-col lg:flex-row justify-end px-4 md:px-12 main_padding_left gap-[20px] lg:gap-0">
         <Image
           src="/images/about/about_mob.png"
-          alt="img icon"
+          alt="Portrait of Anil Mathews, entrepreneur and author"
           width={370}
           height={527}
           className="w-full lg:hidden mt-[-40px]"
@@ -162,7 +162,7 @@ const AboutHero = () => {
               className=" hidden xl:block xl:absolute bottom-[-30px] 2xl:bottom-[-50px] right-[15%] 2xl:right-[15%] w-[50px] 2xl:w-[130px]"
             />
           </div>
-          <div className="flex flex-col gap-[25px] lg:gap-[30px] w-full 2xl:w-[578px] xl:ml-[10%] 2xl:ml-[10%]">
+          <div className="flex flex-col gap-[25px] lg:gap-[30px] w-[95%] 2xl:w-[578px] xl:ml-[10%] 2xl:ml-[10%]">
             <p className="text-base lg:text-xl font-inter text-[#111111] opacity-65">
               Over the past two decades I’ve built companies that prove small,
               clear-thinking teams can shape global markets. I founded Near

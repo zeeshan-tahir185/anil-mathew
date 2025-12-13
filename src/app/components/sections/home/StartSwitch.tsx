@@ -14,24 +14,24 @@ const StartSwitch = () => {
                     </div>
                     <div className='w-full gap-4 flex flex-col lg:flex-row '>
                        <Link href="https://www.thestartswitch.com" target='_blank' rel="noopener">
-                        <button className="cursor-pointer mx-auto md:mx-0 w-[330px] sm:w-full lg:w-[170px] 2xl:w-[199px] bg-[#1A3470] text-[#E8DCCB] h-[50px] lg:h-[46px] backdrop-blur-[25px] flex justify-center items-center gap-2 rounded-full uppercase text-sm xl:text-[13px] 2xl:text-base font-inter font-medium ">
+                        <button className="cursor-pointer mx-auto md:mx-0 w-[330px] sm:w-full lg:w-[200px] 2xl:w-[199px] bg-[#1A3470] text-[#E8DCCB] h-[50px] lg:h-[46px] backdrop-blur-[25px] flex justify-center items-center gap-2 rounded-full uppercase text-sm xl:text-[13px] 2xl:text-base font-inter font-medium ">
                             Read the book <MdKeyboardArrowRight className="text-2xl" />
                         </button>
                        </Link>
                         <Link href="https://www.amazon.com/dp/B0FH41DL25" target="_blank" rel="nofollow noopener">
-                        <button className="cursor-pointer mx-auto md:mx-0 w-[330px] sm:w-full lg:w-[185px] 2xl:w-[207px] bg-[#E8DCCB03] backdrop-blur-[25px] border border-[#11141826] flex justify-center items-center gap-2 text-[#111111] h-[44px] lg:h-[46px] rounded-full uppercase text-sm xl:text-[13px] 2xl:text-base font-inter font-medium ">
+                        <button className="cursor-pointer mx-auto md:mx-0 w-[330px] sm:w-full lg:w-[200px] 2xl:w-[207px] bg-[#E8DCCB03] backdrop-blur-[25px] border border-[#11141826] flex justify-center items-center gap-2 text-[#111111] h-[44px] lg:h-[46px] rounded-full uppercase text-sm xl:text-[13px] 2xl:text-base font-inter font-medium ">
                             Buy on amazon <MdKeyboardArrowRight className="text-2xl" />
                         </button>
                         </Link>
-                        <Link href="https://www.goodreads.com/author/show/57597604.Anil_Mathews" target="_blank" rel="nofollow noopener">
+                        {/* <Link href="https://www.goodreads.com/author/show/57597604.Anil_Mathews" target="_blank" rel="nofollow noopener">
                             <button className="cursor-pointer mx-auto md:mx-0 w-[330px] sm:w-full lg:w-[250px] 2xl:w-[275px] bg-[#E8DCCB03] backdrop-blur-[25px] border border-[#11141826] flex justify-center items-center gap-2 text-[#111111] h-[44px] lg:h-[46px] rounded-full uppercase text-sm xl:text-[13px] 2xl:text-base font-inter font-medium ">
                                 Reviews on Goodreads <MdKeyboardArrowRight className="text-2xl" />
                             </button>
-                            </Link>
+                            </Link> */}
                     </div>
                 </div>
-                <Image src="/images/home/starts.png" alt='starts image' width={802} height={732} className='hidden xl:block xl:w-[500px] 2xl:w-[600px] [@media(min-width:1700px)]:w-[802px] ' />
-                <Image src="/images/home/starts_mob.png" alt='starts image' width={298} height={420} className='xl:hidden block w-[90%]  mx-auto mt-[30px]' />
+                <Image src="/images/home/starts.png" alt='The Start Switch book cover by Anil Mathews' width={802} height={732} className='hidden xl:block xl:w-[500px] 2xl:w-[600px] [@media(min-width:1700px)]:w-[802px] ' />
+                <Image src="/images/home/starts_mob.png" alt='The Start Switch book cover by Anil Mathews' width={298} height={420} className='xl:hidden block w-[90%]  mx-auto mt-[30px]' />
             </div>
         </div>
     )

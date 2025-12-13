@@ -10,8 +10,8 @@ const OffTheClock = () => {
                     <p className='text-[#F7F4F1] opacity-65 font-inter text-base lg:text-xl'>I chase big fish, fly light aircraft, and love fast cars that roar. The sea teaches patience. The sky teaches precision. Speed reminds me that power is nothing without control.</p>
                 </div>
                 <div className='flex flex-col lg:flex-row w-full gap-4 lg:gap-6 items-center justify-center'>
-                    <Image src="/images/about/clock1-new.png" width={1402} height={1074} alt='clock image' className='w-full lg:w-[50%] h-full rounded-2xl object-cover' />
-                    <Image src="/images/about/clock2-new.png" width={1401} height={1074} alt='clock image' className='w-full lg:w-[50%] h-full rounded-2xl object-cover' />
+                    <Image src="/images/about/clock1-new.png" width={1402} height={1074} alt='Anil Mathews fishing offshore in Cabo San Lucas' className='w-full lg:w-[50%] h-full rounded-2xl object-cover' />
+                    <Image src="/images/about/clock2-new.png" width={1401} height={1074} alt='Anil Mathews piloting a Cirrus SR22 aircraft' className='w-full lg:w-[50%] h-full rounded-2xl object-cover' />
                 </div>
             </div>
         </div>

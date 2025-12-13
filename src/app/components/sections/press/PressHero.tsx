@@ -29,33 +29,41 @@ const PressHero = () => {
           </Link>
         </div>
         <div className="relative w-full lg:w-[500px] xl:w-[600px] 2xl:w-[700px] formate_img order-1 lg:order-2">
-          <Image
-            src="/images/press/press.png"
-            width={758}
-            height={492}
-            alt="interview image"
-            className="rounded-[24px] object-cover h-[330px] lg:h-auto"
-          />
           <Link
-            href="https://www.bloomberg.com/news/videos/2023-03-24/near-intelligence-smathews-on-spac-deal-video"
+            href="https://www.bloomberg.com/news/videos/2023-03-24/near-intelligence-s-mathews-on-spac-deal-video"
             target="_blank"
             rel="nofollow noopener"
           >
             <Image
-              src="/images/press/play.png"
-              width={64}
-              height={64}
+              src="/images/press/press.png"
+              width={758}
+              height={492}
               alt="interview image"
-              className="absolute top-[calc(50%-32px)] w-[48px] lg:w-[64px] left-[calc(50%-32px)] cursor-pointer"
+              className="rounded-[24px] object-cover h-[330px] lg:h-auto"
             />
+          </Link>
+           <Link
+            href="https://www.bloomberg.com/news/videos/2023-03-24/near-intelligence-s-mathews-on-spac-deal-video"
+            target="_blank"
+            rel="nofollow noopener"
+          >
+          <Image
+            src="/images/press/play.png"
+            width={64}
+            height={64}
+            alt="interview image"
+            className="absolute top-[calc(50%-32px)] w-[48px] lg:w-[64px] left-[calc(50%-32px)] cursor-pointer"
+          />
           </Link>
         </div>
       </div>
       <div className="flex flex-col lg:flex-row gap-6 mb-[50px] lg:mb-0">
         <Link
-                href="https://www.facebook.com/schwabnetwork/videos/near-nir-ceo-anir-mathews-with-a-company-overview/239237531816869/"
-                target="_blank"
-                rel="nofollow noopener" className="w-full lg:w-[50%] relative">
+          href="https://www.facebook.com/schwabnetwork/videos/near-nir-ceo-anir-mathews-with-a-company-overview/239237531816869/"
+          target="_blank"
+          rel="nofollow noopener"
+          className="w-full lg:w-[50%] relative"
+        >
           <Image
             src="/images/press/press1.png"
             width={780}
@@ -79,17 +87,19 @@ const PressHero = () => {
               <p className="text-sm lg:text-base text-[#F7F4F1] uppercase font-inter z-20 ">
                 March 23, 2023 04:38 MINS
               </p>
-              
-                <button className="cursor-pointer lg:mb-[-30px] md:mx-0 w-full md:w-[173px] bg-[#1A3470] text-[#E8DCCB] h-[46px] backdrop-blur-[25px] flex justify-center items-center gap-2 rounded-full uppercase text-sm font-inter font-medium ">
-                  Watch now <MdKeyboardArrowRight className="text-2xl" />
-                </button>
+
+              <button className="cursor-pointer lg:mb-[-30px] md:mx-0 w-full md:w-[173px] bg-[#1A3470] text-[#E8DCCB] h-[46px] backdrop-blur-[25px] flex justify-center items-center gap-2 rounded-full uppercase text-sm font-inter font-medium ">
+                Watch now <MdKeyboardArrowRight className="text-2xl" />
+              </button>
             </div>
           </div>
         </Link>
         <Link
-                href="https://www.nasdaq.com/videos/near-intelligence-rings-the-nasdaq-stock-market-opening-bell"
-                target="_blank"
-                rel="nofollow noopener" className="w-full lg:w-[50%] relative">
+          href="https://www.nasdaq.com/videos/near-intelligence-rings-the-nasdaq-stock-market-opening-bell"
+          target="_blank"
+          rel="nofollow noopener"
+          className="w-full lg:w-[50%] relative"
+        >
           <Image
             src="/images/press/press2.png"
             width={780}
@@ -111,12 +121,12 @@ const PressHero = () => {
             </h3>
             <div className="flex items-start md:items-end justify-between w-full flex-col md:flex-row gap-6 md:gap-0 ">
               <p className="text-sm lg:text-base text-[#F7F4F1] uppercase font-inter z-20 ">
-                March 24, 2023 00:58 MINS
+                March 24, 2023 16:59 MINS
               </p>
-             
-                <button className="cursor-pointer lg:mb-[-30px] md:mx-0 w-full md:w-[173px] bg-[#1A3470] text-[#E8DCCB] h-[46px] backdrop-blur-[25px] flex justify-center items-center gap-2 rounded-full uppercase text-sm font-inter font-medium ">
-                  Watch now <MdKeyboardArrowRight className="text-2xl" />
-                </button>
+
+              <button className="cursor-pointer lg:mb-[-30px] md:mx-0 w-full md:w-[173px] bg-[#1A3470] text-[#E8DCCB] h-[46px] backdrop-blur-[25px] flex justify-center items-center gap-2 rounded-full uppercase text-sm font-inter font-medium ">
+                Watch now <MdKeyboardArrowRight className="text-2xl" />
+              </button>
             </div>
           </div>
         </Link>

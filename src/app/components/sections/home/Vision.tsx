@@ -17,7 +17,7 @@ const Vision = () => {
               src="/images/home/vision.png"
               width={712}
               height={580}
-              alt="vision image"
+              alt="Nasdaq MarketSite building in Times Square on Near Intelligence listing day"
               className="w-full lg:w-[412px] xl:w-[620] 2xl:w-[712px] "
             />
           </Link>
@@ -61,7 +61,7 @@ const Vision = () => {
                 src="/images/home/vision1.png"
                 width={780}
                 height={680}
-                alt="vision 1 image"
+                alt="Anil Mathews speaking on a panel at the Consumer Technology Association event in Las Vegas"
                 className="w-full z-10"
               />
               <p className="text-xl lg:text-2xl text-[#F7F4F1] font-semibold font-inter z-20 absolute leading-[26px] xl:leading-[24px] bottom-0 p-[33px] lg:p-[61px] left-0 ">
@@ -79,7 +79,7 @@ const Vision = () => {
                 src="/images/home/vision2.png"
                 width={524}
                 height={680}
-                alt="vision 1 image"
+                alt="Article highlighting Near Intelligence’s transition from adtech to SaaS"
                 className="w-full z-10 "
               />
               <p className="text-xl lg:text-2xl text-[#F7F4F1] font-semibold font-inter z-20 absolute leading-[26px] xl:leading-[24px] bottom-0 p-[25px] lg:p-[61px] left-0 ">
@@ -98,14 +98,14 @@ const Vision = () => {
               src="/images/home/vision3.png"
               width={780}
               height={680}
-              alt="vision 1 image"
+              alt="TechCrunch article on Near Intelligence raising $100M to merge online andoffline consumer data"
               className="w-full z-10 hidden lg:block"
             />
             <Image
               src="/images/home/vision3_mobiles.png"
               width={780}
               height={680}
-              alt="vision 1 image"
+              alt="TechCrunch article on Near Intelligence raising $100M to merge online and offline consumer data"
               className="w-full z-10 lg:hidden"
             />
             <p className="text-xl lg:text-2xl text-[#F7F4F1] font-semibold font-inter z-20 absolute leading-[26px] xl:leading-[24px] bottom-0 p-[25px] lg:p-[61px] left-0 ">
@@ -125,7 +125,7 @@ const Vision = () => {
         </h2>
         <div className="w-full flex flex-wrap lg:flex-nowrap gap-[10px] lg:gap-[27px]">
           <div className="w-[48%] sm:w-auto px-[20px] lg:max-w-[175px] py-[25px] min-h-[207px] lg:min-h-[300px] 2xl:min-h-[376px] 2xl:max-h-[376px] flex flex-col justify-between border border-[#E8DCCB26] backdrop-blur-xl rounded-[14px] lg:rounded-[24px] bg-[#FFFFFF03]">
-            <p className="text-[#E8DCCB] font-inter text-sm2xlg:text-base uppercase">
+            <p className="text-[#E8DCCB] font-inter text-sm 2x:text-base uppercase">
               Companies founded
             </p>
             <p className="font-charter font-black text-[36px] 2xl:text-[64px] uppercase text-[#E8DCCB]">

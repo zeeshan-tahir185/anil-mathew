@@ -159,7 +159,7 @@ const HomeHero = () => {
                 >
                   ANIL Mathews
                 </h1>
-                <p className="font-inter custom_text text-xs lg:text-[10px] xl:text-sm 2xl:text-base text-[#111111] uppercase absolute left-[50%] sm:left-[40%] lg:left-[45%] lg:top-[10px] xl:left-[42%]">
+                <p className="font-inter custom_text text-xs lg:text-[10px] xl:text-sm 2xl:text-base text-[#111111] uppercase absolute left-[50%] sm:left-[40%] lg:left-[45%] top-[6px] lg:top-[10px] xl:left-[42%]">
                   I build where
                   <br /> technology amplifies
                   <br /> human possibility.
@@ -192,7 +192,7 @@ const HomeHero = () => {
         <div className="home_hero_bg hidden lg:block w-[60%] xl:w-[50%] 2xl:w-[700px] 3xl:w-[814px] min-h-[650px] xl:min-h-[750] [@media(min-width:1370px)]:min-h-[850px] 2xl:min-h-[970px]! ">
           <Image
             src="/images/home/home_hero.svg"
-            alt="home hero"
+            alt="Anil Mathews speaking at Nasdaq listing day in Times Square"
             width={814}
             height={1038}
             className="z-10 absolute top-[9px] right-[10px] lg:right-[25px] lg:w-[580px] xl:w-[50%] 2xl:w-[700px] [@media(min-width:1530px)]:w-[814px]"
