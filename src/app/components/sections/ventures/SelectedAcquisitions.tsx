@@ -10,7 +10,7 @@ const SelectedAcquisitions = () => {
           className="font-charter leading-[36px] lg:leading-[64px] text-[36px] lg:text-[45px] 2xl:text-[64px] text-[#111111]"
           style={{ letterSpacing: "-2px" }}
         >
-          Selected Acquisitions{" "}
+          Selected acquisitions{" "}
         </h2>
         <p className="text-[#111111] opacity-65 font-inter text-base lg:text-xl">
           The success of an acquisition is measured by fit, not size. Both
